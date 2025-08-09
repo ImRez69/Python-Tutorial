@@ -36,3 +36,27 @@
 # print(3 ** 2)  #  9 // توان
 
 # ----- Part 7 ( Variable ) -----
+
+#  For Assign Can't User { Character , Number }
+
+# x = 5
+# print(x)  # 5
+
+# y = 6
+# print(y)  # 6
+
+# print("-----------------------------")
+
+# print(x + y)  # 11
+
+# ---
+
+# Variable Name Role
+
+# myVariableName = "John" # Camel Case
+# MyVariableName = "John" # Pascal Case
+# my_variable_name = "John" # Snake Case
+
+# ----- Part 8 ( Casting ) -----
+
+
