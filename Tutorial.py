@@ -56,3 +56,17 @@
 # myVariableName = "John" # Camel Case
 # MyVariableName = "John" # Pascal Case
 # my_variable_name = "John" # Snake Case
+
+# ----- Part 8 ( Casting ) -----
+
+a = int(5) # "تبدیل مقدار مد نظر به یک "اینتیجر
+print(a) 
+
+b = int(5.6) # از اعشار به بعد را حذف میکند
+print(b) # 5
+
+c = int("5") # محتوایت درون "استرینگ" رو به  "اینتیجر"  تبدیل میکند اگر که "اینتیجر" باشد
+print(c) # 5
+
+d = int("Amir")
+print(c) # Value Error
