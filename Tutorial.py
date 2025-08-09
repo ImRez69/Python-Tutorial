@@ -56,7 +56,3 @@
 # myVariableName = "John" # Camel Case
 # MyVariableName = "John" # Pascal Case
 # my_variable_name = "John" # Snake Case
-
-# ----- Part 8 ( Casting ) -----
-
-
