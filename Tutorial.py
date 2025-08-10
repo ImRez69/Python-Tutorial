@@ -124,3 +124,73 @@
 # print(type(e))  # str
 
 # ----- Part 9 ( Strings ) -----
+
+# my_name = "My Name is Amir"
+# print(my_name)
+
+# ---
+
+# my_name = "My Name is 'Amir' "
+# print(my_name)
+
+# my_name = 'My Name is "Amir" '
+# print(my_name)
+
+# ---
+
+# my_name = 'My Name is "Amir" '
+# print(my_name)
+
+# my_name = "My Name is 'Amir' "
+# print(my_name)
+
+# ---
+# \n  - \t - \b
+
+# my_name = "My Name is \nAmir" # \n ( New Line )
+# print(my_name)
+
+# my_name = "My Name is \tAmir" # \t ( Tab )
+# print(my_name)
+
+# my_name = "My Name is \bAmir" # \b ( Backspace )
+# print(my_name)
+
+# --- 
+# """ """ ( Triple Double Quotation )
+
+# my_name = """My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# """
+# print(my_name)
+
+# my_name = ''''
+# My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# '''
+# print(my_name)
+
+# --- 
+# ''' ''' ( Triple Quotation )
+
+
+# my_name = '''My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# '''
+# print(my_name)
+
+# my_name = '''
+# My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# My Name is Amir
+# '''
+# print(my_name)
+
+# ----- Part 10 ( Slicing Strings ) -----
