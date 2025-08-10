@@ -59,14 +59,68 @@
 
 # ----- Part 8 ( Casting ) -----
 
-a = int(5) # "تبدیل مقدار مد نظر به یک "اینتیجر
-print(a) 
+#  int() || ( عدد صحیح ) || میتواند عدد صحیح مد نظر یا موجود در "استرینگ" را به عدد صحیح تبدیل کند
 
-b = int(5.6) # از اعشار به بعد را حذف میکند
-print(b) # 5
+# a = int(5) # "تبدیل مقدار مد نظر به یک "اینتیجر
+# print(a) # 5
+# print(type(a)) # int
 
-c = int("5") # محتوایت درون "استرینگ" رو به  "اینتیجر"  تبدیل میکند اگر که "اینتیجر" باشد
-print(c) # 5
+# b = int("5") # محتوایت درون "استرینگ" رو به  "اینتیجر"  تبدیل میکند اگر که "اینتیجر" باشد
+# print(b) # 5
+# print(type(b)) # int
 
-d = int("Amir")
-print(c) # Value Error
+# c = int(5.6) # از اعشار به بعد را حذف میکند
+# print(c) # 5
+# print(type(c)) # int
+
+# d = int("5.6") # Value Error
+
+# e = int("Amir") # Value Error
+
+# ---
+
+#  float() || ( عدد اعشاری ) || میتواند عدد صحیح و اعشاری مد نظر یا موجود در "استرینگ" را به عدد اعشاری تبدیل کند
+
+# a = float(5)  # "تبدیل مقدار مد نظر به یک "فلوت
+# print(a) # 5.0
+# print(type(a)) # float
+
+# b = float("5")  # محتوایت درون "استرینگ" رو به  "فلوت"  تبدیل میکند اگر که "اینتیجر یا فلوت" باشد
+# print(b) # 5.0
+# print(type(b)) # float
+
+# c = float(5.5)
+# print(c) # 5.5
+# print(type(c)) # float
+
+# c = float("5.5")
+# print(c)  # 5.5
+# print(type(c))  # float
+
+# e = float("Amir") # Value Error
+
+# ---
+
+#  str() || ( رشته ) || میتواند "استرینگ" مد نظر را به "استرینگ" تبدیل کند
+
+# a = str(5)  # "تبدیل مقدار مد نظر به یک "استرینگ
+# print(a) # "5"
+# print(type(a)) # str
+
+# b = str("5")  # محتوایت درون "استرینگ" رو به  "استرینگ"  تبدیل میکند
+# print(b) # "5"
+# print(type(b)) # str
+
+# c = str(5.5)
+# print(c) # "5.5"
+# print(type(c)) # str
+
+# c = str("5.5")
+# print(c)  # "5.5"
+# print(type(c))  # str
+
+# e = str("Amir")
+# print(e)  # "Amir"
+# print(type(e))  # str
+
+# ----- Part 9 ( Strings ) -----
