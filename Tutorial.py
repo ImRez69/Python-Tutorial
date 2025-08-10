@@ -156,7 +156,7 @@
 # my_name = "My Name is \bAmir" # \b ( Backspace )
 # print(my_name)
 
-# --- 
+# ---
 # """ """ ( Triple Double Quotation )
 
 # my_name = """My Name is Amir
@@ -174,7 +174,7 @@
 # '''
 # print(my_name)
 
-# --- 
+# ---
 # ''' ''' ( Triple Quotation )
 
 
@@ -194,3 +194,22 @@
 # print(my_name)
 
 # ----- Part 10 ( Slicing Strings ) -----
+
+# x = "probe"
+# print(x[0])  # p
+# print(x[2])  # o
+# print(x[4])  # e
+# print(x[-1])  # e
+# print(x[-5])  # p
+
+# ---
+
+# x = "Hello, World"
+# print(x[2:5])  # llo // از اندیس 2 تا قبل از اندیس 5 ( تا قبل از اندیس دوم برگردانده میشود )
+# print(x[-5:-2])  # llo // از اندیس -5  تا -2 p
+
+# print(x[:5])  # llo // از ابتدا تا اندیس 5 
+# print(x[2:])  # llo // از اندیس 2 تا آخر 
+
+# ----- Part 11 ( Concatenate ) -----
+
