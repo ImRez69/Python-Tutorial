@@ -327,4 +327,4 @@
 # print(txt) # MY NAME IS AMIR
 # print(len(txt)) # 15 // طول "استرینگ" را برمیگرداند
 
-# ----- Part 12 ( Concatenate & Format Strings ) -----
+# ----- Part 13 ( Booleans ) -----
