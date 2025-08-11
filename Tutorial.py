@@ -208,8 +208,52 @@
 # print(x[2:5])  # llo // از اندیس 2 تا قبل از اندیس 5 ( تا قبل از اندیس دوم برگردانده میشود )
 # print(x[-5:-2])  # llo // از اندیس -5  تا -2 p
 
-# print(x[:5])  # llo // از ابتدا تا اندیس 5 
-# print(x[2:])  # llo // از اندیس 2 تا آخر 
+# print(x[:5])  # llo // از ابتدا تا اندیس 5
+# print(x[2:])  # llo // از اندیس 2 تا آخر
 
-# ----- Part 11 ( Concatenate ) -----
+# ----- Part 11 ( Concatenate & Format Strings ) -----
 
+# Concatenate
+
+# String + String
+# firstName = "Amir"
+# lastName = " Amiri"
+# city = " Ahwas"
+# me = firstName + lastName  + city
+# print(me)  #Amir Amiri Ahwas
+
+# String + " " + String
+# firstName = "Amir"
+# lastName = "Amiri"
+# city = "Ahwas"
+# me = firstName + " " + lastName + " " + city
+# print(me)  # Amir Amiri Ahwas
+
+
+# ---
+
+# Format Strings || خودکار تایپ همه را رشته میکند
+
+#  f"{}'
+# firstName = "Amir"
+# lastName = "Amiri"
+# city = "Ahwas"
+# me = f" my name is {firstName} and my last name is {lastName} and my city is {city}"
+# print(me)  #  my name is Amir and my last name is Amiri and my city is Ahwas
+
+# String + Integer
+# age = 30
+# txt = "My Age is :" + age
+# print(txt)  # Type Error
+
+# String + str( Integer )
+# age = 30
+# txt = "My Age is : " + str(age)
+# print(txt)  # My Age is : 30
+
+#  f"{}'
+# age = 30
+# txt = f"My Age is : {age}"
+# print(txt)  # My Age is : 30
+
+# ----- Part 12 ( Concatenate & Format Strings ) -----
