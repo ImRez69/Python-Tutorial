@@ -229,7 +229,6 @@
 # me = firstName + " " + lastName + " " + city
 # print(me)  # Amir Amiri Ahwas
 
-
 # ---
 
 # Format Strings || خودکار تایپ همه را رشته میکند
@@ -255,5 +254,77 @@
 # age = 30
 # txt = f"My Age is : {age}"
 # print(txt)  # My Age is : 30
+
+# ----- Part 12 ( Concatenate & Format Strings ) -----
+
+# capitalize()
+# txt = "my name is amir"
+# print(txt) # my name is amir
+# # print(txt.capitalize()) # My name is amir // حرف اول "استرینگ" رو "آپر کیس" یا بزرگ میکنه
+
+# ---
+
+# casefold()
+# txt = "My Name is Amir"
+# print(txt) # My Name is Amir
+# print(txt.casefold()) # my name is amir // تمام حرف های "استرینگ" رو "لور کیس" یا کوچیک  میکنه
+
+# ---
+
+# count(" ")
+# txt = "My Name is Amir"
+# print(txt) # My Name is Amir
+# print(txt.count("m")) # 2 // تعداد استفاده شده ورودی در "استرینگ" را بر میگرداند // به حروف بزرگ و کوچک حساس است
+# print(txt.count(" ")) # 3
+
+# ---
+
+# find(" ")
+# txt = "My Name is Amir"
+# print(txt) # My Name is Amir
+# print(txt.find("N")) # 3 // ایندکس" اولین مقدار مطابق با ورودی در "استرینگ" را بر میگرداند"
+# print(txt.find("Name")) # 3 // ایندکس اولین مقدار با آن شروع شده است را بر میگرداند
+
+# ---
+
+# format(" ")
+# txt = "My Name is Amir {} {}"
+# print(txt) # My Name is Amir {} {}
+# print(txt.format("Bruh","Bruh2")) # My Name is Amir Bruh Bruh2 // به ترتیب در آکولاد های موجود در "استرینگ" ورودی ها را تنظیم میکند
+
+# ---
+
+# strip()
+# txt = "       My Name is Amir     "
+# print(txt) # "       My Name is Amir     "
+# print(txt.strip()) # My Name is Amir // فاصله های ابتدا و انتها "استرینگ" را حذف میکند
+
+# ---
+
+# title()
+# txt = "my name is amir"
+# print(txt) # my name is amir
+# print(txt.title()) # My Name Is Amir // حروف اول تمامی کلمات "استرینگ" را "آپر کیس" یا بزرگ  میکند )
+
+# ---
+
+# upper()
+# txt = "my name is amir"
+# print(txt) # my name is amir
+# print(txt.upper()) # MY NAME IS AMIR // تمامی حروف "استرینگ" را "آپر کیس" یا بزرگ میکند )
+
+# ---
+
+# lower()
+# txt = "MY NAME IS AMIR"
+# print(txt) # MY NAME IS AMIR
+# print(txt.lower()) # my name is amir // تمامی حروف "استرینگ" را "لور کیس" یا کوچک میکند )
+
+# ---
+
+# len()
+# txt = "MY NAME IS AMIR"
+# print(txt) # MY NAME IS AMIR
+# print(len(txt)) # 15 // طول "استرینگ" را برمیگرداند
 
 # ----- Part 12 ( Concatenate & Format Strings ) -----
