@@ -408,4 +408,15 @@
 # print(number)
 
 
-# ----- Part 16 ( Lists ) -----
+# ----- Part 16 ( Lists 1 ) -----
+
+my_list = ["bruh", "bruh1", "bruh2", "bruh3"]
+print(my_list)  # ['bruh', 'bruh1', 'bruh2', 'bruh3']
+print(type(my_list))  # <class 'list'>
+
+print(my_list[1])  # bruh1
+
+print(len(my_list[1]))  # 5 // طول "ایندکس" 1
+print(len(my_list))  # 4 // "طول "لیست
+
+# ----- Part 17 ( Lists 2 ) -----
