@@ -390,4 +390,22 @@
 # print( x >= z ) # True
 # print( x <= z ) # False
 
-# ----- Part 14 ( Review ) -----
+# ----- Part 14 & 15 ( Review 1 & Review 2 - Assignment Operators ) -----
+
+# Assignment Operators
+
+# Mine Reader
+#  fisrt_number = int(input("Please Enter a Number Between 1 - 9:"))
+# number = fisrt_number
+# number *= 2
+# number += 8
+# number += fisrt_number
+# number -= 2
+# number /= 3
+# number -= fisrt_number
+# number *= 4
+# number = int(number)
+# print(number)
+
+
+# ----- Part 16 ( Lists ) -----
