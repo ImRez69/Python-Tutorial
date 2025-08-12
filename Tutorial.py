@@ -328,3 +328,66 @@
 # print(len(txt)) # 15 // طول "استرینگ" را برمیگرداند
 
 # ----- Part 13 ( Booleans ) -----
+
+# True
+# print(bool(True)) # True
+# print(type(bool(True))) # <class 'bool'>
+
+# print(bool("Bruh")) # True
+# print(type(bool("Bruh"))) # <class 'bool'>
+
+# print(bool(" "))  # True
+# print(type(bool(" ")))  # <class 'bool'>
+
+# print(bool(20)) # True
+# print(type(bool(20))) # <class 'bool'>
+
+# ---
+
+# False
+# print(bool(False))  # False
+# print(type(bool(False)))  # <class 'bool'>
+
+# print(bool(None))  # False
+# print(type(bool(None)))  # <class 'bool'>
+
+# print(bool(0))  # False
+# print(type(bool(0)))  # <class 'bool'>
+
+# print(bool(""))  # False
+# print(type(bool("")))  # <class 'bool'>
+
+# print(bool(()))  # False
+# print(type(bool(())))  # <class 'bool'>
+
+# print(bool(( )))  # False
+# print(type(bool(( ))))  # <class 'bool'>
+
+# print(bool([]))  # False
+# print(type(bool([])))  # <class 'bool'>
+
+# print(bool([ ]))  # False
+# print(type(bool([ ])))  # <class 'bool'>
+
+# print(bool({}))  # False
+# print(type(bool({})))  # <class 'bool'>
+
+# print(bool({ }))  # False
+# print(type(bool({ })))  # <class 'bool'>
+
+# ---
+
+# Comparison Operators
+# x = 20
+# z = 15
+
+# print( x == z ) # False
+# print( x != z ) # True
+
+# print( x > z ) # True
+# print( x < z ) # False
+
+# print( x >= z ) # True
+# print( x <= z ) # False
+
+# ----- Part 14 ( Review ) -----
