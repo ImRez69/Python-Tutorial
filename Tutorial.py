@@ -485,9 +485,9 @@
 
 # ----- Part 20 ( Add List Items ) -----
 
-my_list = ["amir", "ali", "mamad"]
-my_list_2 = ["BRUH", "BRUH2", "BRUH3"]
-my_list_3 = ("BRUH", "BRUH2", "BRUH3")
+# my_list = ["amir", "ali", "mamad"]
+# my_list_2 = ["BRUH", "BRUH2", "BRUH3"]
+# my_list_3 = ("BRUH", "BRUH2", "BRUH3")
 # print(my_list)  # ['amir', 'ali', 'mamad']
 
 # .append() # به انتهای لیست اضافه میکند
@@ -516,3 +516,40 @@ my_list_3 = ("BRUH", "BRUH2", "BRUH3")
 # print(my_list) # ['amir', 'ali', 'mamad', 'BRUH', 'BRUH2', 'BRUH3']
 
 # ----- Part 21 ( Remove List Items ) -----
+
+# my_list = ["amir", "ali", "mamad"]
+# print(my_list) # ['amir', 'ali', 'mamad']
+
+# .remove()
+
+# my_list.remove("ali") # "حذف "آیتم" دلخواه از "لیست
+# print(my_list) # ['amir', 'mamad']
+
+# ---
+
+# .pop()
+
+# my_list.pop(1) # با "پاپ" "ایندکس" دلخواه را حذف میکنیم
+# print(my_list) # ['amir', 'mamad']
+
+# my_list.pop() # اگر "ایندکس" ندهیم آخرین مقدار را حذف میکند
+# print(my_list) # ['amir', 'ali']
+
+# ---
+
+# del || Keyword
+
+# del my_list[0]# "حذف "ایندکس" دلخواه از "لیست" با کلمه کلیدی "دل
+# print(my_list) # ['ali', 'mamad']
+
+# del my_list # حذف کل لیست
+# print(my_list) # NameError: name 'my_list' is not defined
+
+# ---
+
+# .clear()
+
+# my_list.clear()# "حذف تمامی مقدار های درون "لیست
+# print(my_list) # []
+
+# ----- Part 22 ( Lists 7 ) -----
