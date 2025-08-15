@@ -553,3 +553,116 @@
 # print(my_list) # []
 
 # ----- Part 22 ( Lists 7 ) -----
+
+# .sort() || Alphabetically
+
+# my_list = ["amir", "mamad", "farid"]
+# print(my_list)  # ['amir', 'mamad', 'farid']
+
+# my_list.sort()  # "بر اساس حروف الفبا // "اِی" تا "زی
+# print(my_list)  # ['amir', 'farid', 'mamad']
+
+# ---
+
+# .sort() || Alphabetically || Case
+
+# my_list = ["amir", "Mamad", "farid", "Zara"]
+# print(my_list)  # ['amir', 'Mamad', 'farid', 'Zara']
+
+# my_list.sort()  # اگر حروف بزرگ کوچیک بود اول بزرگ ها "سورت" میشن بعد کوچیک ها
+# print(my_list)  # ['Mamad', 'Zara', 'amir', 'farid']
+
+# my_list.sort(key=  str.lower)  # اینگونه تمام حروف کوچک میشوند و بعد "سورت" میشوند
+# print(my_list)  # ['amir', 'farid', 'Mamad', 'Zara']
+
+# ---
+
+# .sort() || Alphabetically Descending ( Reverse )
+
+# my_list = ["amir", "mamad", "farid"]
+# print(my_list)  # ['amir', 'mamad', 'farid']
+
+# my_list.sort(reverse=True)  # "بر اساس بر عکس حروف الفبا // "زی" تا "اِی
+# print(my_list)  # ['mamad', 'farid', 'amir']
+
+# ---
+
+# .sort() || Numerically
+
+# my_list = [100, 23, 4534, 3]
+# print(my_list)  # [100, 23, 4534, 3]
+
+# my_list.sort()  # بر اساس ترتیب عددی // کم به زیاد
+# print(my_list)  # [3, 23, 100, 4534]
+
+# ---
+
+# .sort() || Numerically Descending ( Reverse )
+
+# my_list = [100, 23, 4534, 3]
+# print(my_list)  # [100, 23, 4534, 3]
+
+# my_list.sort(reverse=True)  # بر اساس ترتیب عددی // زیاد به کم
+# print(my_list)  # [4534, 100, 23, 3]
+
+# ---
+
+# .reverse()
+
+# my_list = [100, 23, 4534, 3]
+# print(my_list)  # [100, 23, 4534, 3]
+
+# my_list.reverse() # ترتیب رو بر عکس میکند
+# print(my_list)  # [3, 4534, 23, 100]
+
+# my_list = ["amir", "mamad", "farid"]
+# print(my_list)  # ["amir", "mamad", "farid"]
+
+# my_list.reverse()  # بر اساس ترتیب عددی // زیاد به کم
+# print(my_list)  # ['farid', 'mamad', 'amir']
+
+# ---
+
+# .copy()
+
+# my_list = ["amir", "mamad", "farid"]
+# print(my_list)  # ['amir', 'mamad', 'farid']
+
+# my_list_2 = my_list.copy()  # از "لیست" "کپی" میگیرد
+# print(my_list)  # ['amir', 'farid', 'mamad']
+
+
+# ---
+
+# list()
+
+# my_list = ["amir", "mamad", "farid"]
+# print(my_list)  # ['amir', 'mamad', 'farid']
+
+# my_list_2 = list(my_list)  # "از "لیست" "کپی" میگیرد با استفاده از "کلس" "لیست
+# print(my_list)  # ['amir', 'farid', 'mamad']
+
+# ---
+
+# +
+
+# my_list = ["amir", "mamad", "farid"]
+# my_list_2 = ["amir", "mamad", "farid"]
+
+# my_list_3 = my_list + my_list_2
+# print(my_list_3)  # ['amir', 'mamad', 'farid', 'amir', 'mamad', 'farid']
+
+# ---
+
+# extend()
+
+# my_list = ["amir", "mamad", "farid"]
+# print(my_list)  # ['amir', 'mamad', 'farid']
+# my_list_2 = ["amir", "mamad", "farid"]
+# print(my_list_2)  # ['amir', 'mamad', 'farid']
+
+# my_list.extend(my_list_2)
+# print(my_list)  # ['amir', 'mamad', 'farid', 'amir', 'mamad', 'farid']
+
+
+# ----- Part 23 ( Lists 8 ) -----
