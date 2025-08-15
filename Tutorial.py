@@ -484,3 +484,35 @@
 # print(my_list)  # ['amir', 'BRUH', 'ali', 'mamad', 'morteza', 'reza']
 
 # ----- Part 20 ( Add List Items ) -----
+
+my_list = ["amir", "ali", "mamad"]
+my_list_2 = ["BRUH", "BRUH2", "BRUH3"]
+my_list_3 = ("BRUH", "BRUH2", "BRUH3")
+# print(my_list)  # ['amir', 'ali', 'mamad']
+
+# .append() # به انتهای لیست اضافه میکند
+# my_list.append("BRUH")
+# print(my_list)  # ['amir', 'ali', 'mamad', 'BRUH']
+
+# my_list.append(["BRUH", "BRUH2"])
+# print(my_list)  # ['amir', 'ali', 'mamad', ['BRUH', 'BRUH2']]
+
+# my_list.append(my_list_2)
+# print(my_list)  # ['amir', 'ali', 'mamad', ['BRUH', 'BRUH2', 'BRUH3']]
+
+# .insert() به "لیست" اضافه میکند در جای دخلواه
+# my_list.insert(2,"BRUH")
+# print(my_list)  # ['amir', 'ali', 'BRUH', 'mamad']
+
+# .extend() # لیست" را گسترش میدهد" // هر چیزی که آیتم هایی درون خود دارد را میتواند به لیست اضافه کند // "لیست" ، "تاپل" ، "دیکشنری" و غیره
+
+# my_list.extend(["BRUH", "BRUH2"])
+# print(my_list)  # ['amir', 'ali', 'mamad', 'BRUH', 'BRUH2']
+
+# my_list.extend(my_list_2)
+# print(my_list) # ['amir', 'ali', 'mamad', 'BRUH', 'BRUH2', 'BRUH3']
+
+# my_list.extend(my_list_3)
+# print(my_list) # ['amir', 'ali', 'mamad', 'BRUH', 'BRUH2', 'BRUH3']
+
+# ----- Part 21 ( Remove List Items ) -----
