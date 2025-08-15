@@ -408,15 +408,79 @@
 # print(number)
 
 
-# ----- Part 16 ( Lists 1 ) -----
+# ----- Part 16 & 17 & 18 & 19 ( Lists 1 & 2 & 3 & 4 ) -----
 
-my_list = ["bruh", "bruh1", "bruh2", "bruh3"]
-print(my_list)  # ['bruh', 'bruh1', 'bruh2', 'bruh3']
-print(type(my_list))  # <class 'list'>
+# Part 16
 
-print(my_list[1])  # bruh1
+# my_list = ["bruh", "bruh1", "bruh2", "bruh3"]
+# print(my_list)  # ['bruh', 'bruh1', 'bruh2', 'bruh3']
+# print(type(my_list))  # <class 'list'>
 
-print(len(my_list[1]))  # 5 // طول "ایندکس" 1
-print(len(my_list))  # 4 // "طول "لیست
+# print(my_list[1])  # bruh1
 
-# ----- Part 17 ( Lists 2 ) -----
+# print(len(my_list[1]))  # 5 // طول "ایندکس" 1
+# print(len(my_list))  # 4 // "طول "لیست
+
+# ---
+
+# Part 17
+
+# my_list = ["amir", "ali", 3, 5.5, True, 45j, ["d", 3, 4.6, True, 34j]]
+# print(my_list) # ['amir', 'ali', 3, 5.5, True, 45j, ['d', 3, 4.6, True, 34j]]
+# print(my_list[-1]) # ['d', 3, 4.6, True, 34j]
+# print(my_list[-1][2]) # 4.6
+
+# ---
+
+# Part 18
+
+# my_list = ["amir", "ali", "mamad", "morteza", "reza"]
+# print(my_list)  # ['amir', 'ali', 'mamad', 'morteza', 'reza']
+# print(my_list[1])  # ali
+# print(my_list[1:4])  # ['ali', 'mamad', 'morteza']
+# print(my_list[:4])  # ['amir', 'ali', 'mamad', 'morteza']
+# print(my_list[3:])  # ['morteza', 'reza']
+# print(my_list[-1])  # reza
+# print(my_list[-3:-1])  # ['mamad', 'morteza']
+
+# new_list = my_list[2:4]
+# print(new_list)  # ['mamad', 'morteza']
+
+# ---
+
+# Part 19
+
+# وقتی یک "ایندکس" انتخاب میشود هر چه را اختصاص بدهیم آن را قرار میدهد یک "لیست" یا فقط یک رشته
+# وقتی یک محدوده انتخاب میشود باید به آن یک "لیست" اختصاص داده شود در غیر این صورت "اسرتینگ" داده شده را به یک "لیست" تبدیل و دونه دونه حرف هارا در جای مربوط قرار میدهد
+
+# my_list = ["amir", "ali", "mamad", "morteza", "reza"]
+# print(my_list)  # ['amir', 'ali', 'mamad', 'morteza', 'reza']
+
+# [1]
+# my_list[1] = "BRUH"
+# print(my_list)  # ['amir', 'BRUH', 'mamad', 'morteza', 'reza']
+
+# my_list[1] = ["BRUH", "BRUH2"]
+# print(my_list)  # ['amir', ['BRUH', 'BRUH2'], 'mamad', 'morteza', 'reza']
+
+# my_list[1:] = ["BRUH"]  # توی این حالت چون انتظار یک "لیست" وجود دارد از رشته به عنوان "لیست" استفاده میشود
+# print(my_list)  # ['amir', 'BRUH']
+
+# [1:3]
+# my_list[1:3] = "BRUH"  # توی این حالت چون انتظار یک "لیست" وجود دارد از رشته به عنوان "لیست" استفاده میشود
+# print(my_list)  # ['amir', 'B', 'R', 'U', 'H', 'morteza', 'reza']
+
+# my_list[1:3] = ["BRUH","BRUH2" ]
+# print(my_list)  # ['amir', 'BRUH', 'BRUH2', 'morteza', 'reza']
+
+# my_list[1:3] = ["BRUH", "BRUH2", "BRUH3", "BRUH4"] # زمانی که آیتم های اختصاص داده شده از محدوده انتخاب شده بیشتر باشد به همان اندازه طول "لیست" افزایش میابد
+# print(my_list)  # ['amir', 'BRUH', 'BRUH2', 'BRUH3', 'BRUH4', 'morteza', 'reza']
+
+# my_list[1:3] = ["BRUH"]  # اگر کمتر نیز باشد همانگونه طول "لیست" تغییر میکند
+# print(my_list)  # ['amir', 'BRUH', 'morteza', 'reza']
+
+# .insert()
+# my_list.insert(1,"BRUH")  # در "ایندکس" وارد شده مقدار را اضافه میکند بدون تغییر آن "ایندکس
+# print(my_list)  # ['amir', 'BRUH', 'ali', 'mamad', 'morteza', 'reza']
+
+# ----- Part 20 ( Add List Items ) -----
