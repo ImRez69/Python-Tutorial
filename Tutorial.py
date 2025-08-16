@@ -766,4 +766,36 @@
 # myTuple_3 = myTuple + myTuple_2
 # print(myTuple_3)  # ('amir', 'mamad', 'farid', 'farbod', 'amir', 'mamad', 'farid', 'farbod')
 
-# ----- Part 25 ( Sets ) -----
+# ----- Part 25 ( Sets 1 ) -----
+
+# mySet = {"ali", "amir", "mamad"}
+# print(mySet) # {'amir', 'mamad', 'ali'}
+# print(type(mySet)) # <class 'set'>
+
+# ---
+
+# Unordered & Unindexed
+
+# print(mySet) # {'mamad', 'ali', 'amir'} | {'amir', 'mamad', 'ali'} | یا با هرگونه ترتیبی
+# print(mySet[0]) # TypeError: 'set' object is not subscriptable
+
+# ---
+
+# Can Add or Remove
+
+# mySet.pop()
+# print(mySet) # {'amir', 'ali'} | یا با هرگونه ترتیبی
+
+# mySet.add("Bruh")
+# print(mySet)  # {'ali', 'amir', 'Bruh', 'mamad'} | یا با هرگونه ترتیبی
+
+# ---
+
+# Duplicate Not Allowed
+
+# mySet = {"ali", "amir", "mamad", "ali"}
+# print(mySet)  # {'mamad', 'amir', 'ali'} | یا با هرگونه ترتیبی // اگر 2 تا از ی چیز باشد فقط یکی از آنها نمایش داده خواهد شد
+
+# ----- Part 26 ( Sets 2 ) -----
+
+# mySet = {"ali", "amir", "mamad"}
