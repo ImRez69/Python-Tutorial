@@ -674,7 +674,7 @@
 # تاپل" همان "لیست" است اما نمیتوان از آن چیزی را تغییر ، اضافه و یا کم کرد"
 # تمامی "متود" های "لیست" نیز یکی است به جز آنهایی که مربوط به تغییر هستمد زیرا با "ارور" مواجه میشوید
 
-myTuple = ("amir", "mamad", "farid", "farbod")
+# myTuple = ("amir", "mamad", "farid", "farbod")
 # print(myTuple) # ('amir', 'mamad', 'farid', 'farbod')
 # print(type(myTuple)) # ('<class 'tuple'>
 
