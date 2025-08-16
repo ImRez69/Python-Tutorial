@@ -890,7 +890,7 @@
 
 # .union() or |
 
-#.union()
+# .union()
 # mySet2 = {"BRUH", "BRUH2", "BRUH3"}
 # mySet3 = mySet.union(mySet2)
 # print(mySet)  # {'ali', 'mamad', 'amir'}
@@ -915,6 +915,52 @@
 # print(mySet5) # {'BRUH8', 'amir', 'BRUH9', 'BRUH2', 'ali', 'mamad', 'BRUH', 'BRUH3', 'BRUH4', 'BRUH6', 'BRUH7', 'BRUH5'}
 
 # ----- Part 27 ( Sets 3 ) -----
+
+# --- All in One ---#
+
+# union() // |	# یکی کردن "ست" ها
+
+# update() // |= # "آپدیت کردن "ست 
+
+# difference() // -	# تفاوت های "ست" ها را بازمیگرداند
+# difference_update() // -=	# تفاوت های "ست" ها را بازمیگرداند و در "لیست" "آپدیت" میکند
+
+# intersection() // & # آیتم هایی که در همه "ست" ها مشترک هست را بازمیگرداند
+# intersection_update() // &= # آیتم هایی که در همه "ست" مشترک هست را بازمیگرداند و در "لیست" "آپدیت" میکند
+
+# symmetric_difference() // ^ # آیتم هایی که در همه "ست" ها  مشترک نیست را بازمیگرداند
+# symmetric_difference_update()	// ^= # آیتم هایی که در همه "ست" ها مشترک نیست را بازمیگرداند و در "لیست" "آپدیت" میکند
+
+# --- ---#
+
+
+# .union() or |
+
+# .union()
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = mySet.union(mySet2)
+# print(mySet)  # {'ali', 'mamad', 'amir'}
+# print(mySet2)  # {'BRUH', 'BRUH2', 'BRUH3'}
+# print(mySet3)  # {'ali', 'mamad', 'BRUH3', 'BRUH', 'BRUH2', 'amir'}
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = {"BRUH4", "BRUH5", "BRUH6"}
+# mySet4 = {"BRUH7", "BRUH8", "BRUH9"}
+# mySet5 = mySet.union(mySet2, mySet3, mySet4)
+# print(mySet5) # {'BRUH5', 'BRUH8', 'BRUH7', 'BRUH9', 'BRUH4', 'mamad', 'amir', 'BRUH', 'BRUH6', 'BRUH3', 'BRUH2', 'ali'}
+
+# |
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = mySet | mySet2
+# print(mySet)  # {'amir', 'ali', 'mamad'}
+# print(mySet2)  # {'BRUH3', 'BRUH', 'BRUH2'}
+# print(mySet3)  # {'ali', 'BRUH', 'BRUH2', 'amir', 'BRUH3', 'mamad'}
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = {"BRUH4", "BRUH5", "BRUH6"}
+# mySet4 = {"BRUH7", "BRUH8", "BRUH9"}
+# mySet5 = mySet | mySet2 | mySet3 | mySet4
+# print(mySet5) # {'BRUH8', 'amir', 'BRUH9', 'BRUH2', 'ali', 'mamad', 'BRUH', 'BRUH3', 'BRUH4', 'BRUH6', 'BRUH7', 'BRUH5'}
+
+# ---
 
 # .intersection() or &
 
