@@ -915,3 +915,86 @@
 # print(mySet5) # {'BRUH8', 'amir', 'BRUH9', 'BRUH2', 'ali', 'mamad', 'BRUH', 'BRUH3', 'BRUH4', 'BRUH6', 'BRUH7', 'BRUH5'}
 
 # ----- Part 27 ( Sets 3 ) -----
+
+# .intersection() or &
+
+# .intersection()
+# mySet = {"BRUH"}
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = mySet .intersection(mySet2)
+# print(mySet3)  # {'BRUH'} // فقط مقادیری که تکرار شده اند را بر میگردند
+
+#  &
+# mySet = {"BRUH"}
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = mySet & mySet2
+# print(mySet3)  # {'BRUH'} // فقط مقادیری که تکرار شده اند را بر میگردند
+# mySet = {"BRUH4"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+# mySet3 = {"BRUH4", "BRUH5", "BRUH6"}
+# mySet4 = {"BRUH7", "BRUH4", "BRUH9"}
+# mySet5 = mySet & mySet2 & mySet3 & mySet4
+# print(mySet5)  # {'BRUH4'}
+
+# ---
+
+# .intersection_update() or &=
+
+# mySet = {"BRUH4"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+
+# mySet.intersection_update(mySet2)
+# print(mySet) # {'BRUH4'}
+
+# ---
+
+# .difference() or -
+
+# .difference()
+# mySet = {"BRUH4","BRUH5"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+# mySet3 = mySet.difference(mySet2)
+# print(mySet3) # {'BRUH5'}
+
+# -
+# mySet = {"BRUH4","BRUH5"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+# mySet3 = mySet - mySet2
+# print(mySet3) # {'BRUH5'}
+
+# ---
+
+# .difference_update() or -+
+
+# mySet = {"BRUH4", "BRUH5"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+
+# mySet.difference_update(mySet2)
+# print(mySet)  # {'BRUH5'}
+
+# ---
+
+# .symmetric_difference() or ^
+
+# .symmetric_difference
+# mySet = {"BRUH4", "BRUH5"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+# mySet3 = mySet.symmetric_difference(mySet2)
+# print(mySet3)  # {'BRUH3', 'BRUH', 'BRUH5'}
+
+# ^
+# mySet = {"BRUH4", "BRUH5"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+# mySet3 = mySet ^ mySet2
+# print(mySet3)  # {'BRUH5', 'BRUH', 'BRUH3'}
+
+# ---
+
+# .symmetric_difference_update() or ^=
+
+# mySet = {"BRUH4", "BRUH5"}
+# mySet2 = {"BRUH", "BRUH4", "BRUH3"}
+# mySet.symmetric_difference_update(mySet2)
+# print(mySet)  # {'BRUH', 'BRUH3', 'BRUH5'}
+
+# ----- Part 28 ( Dictionaries 1 ) -----
