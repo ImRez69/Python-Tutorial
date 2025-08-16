@@ -796,6 +796,122 @@
 # mySet = {"ali", "amir", "mamad", "ali"}
 # print(mySet)  # {'mamad', 'amir', 'ali'} | یا با هرگونه ترتیبی // اگر 2 تا از ی چیز باشد فقط یکی از آنها نمایش داده خواهد شد
 
+# ---
+
+# True & 1 | False & 0 is Same Value in Sets
+
+# mySet = {True, 1}
+# print(mySet)  # {True}
+
+# mySet = {False, 0}
+# print(mySet)  # False
+
 # ----- Part 26 ( Sets 2 ) -----
 
 # mySet = {"ali", "amir", "mamad"}
+
+# in | Sets
+
+# print("amir" in mySet)  # True
+# print("Amir" in mySet)  # False
+
+# ---
+
+# in | List & Tuples
+
+# print("amir" in ["amir", "ali"])  # True
+# print("amir" in ("amir", "ali"))  # True
+
+# ---
+
+# .add()
+
+# mySet.add("BRUH")
+# print(mySet)  # {'mamad', 'amir', 'BRUH', 'ali'} | یا با هرگونه ترتیبی
+
+# ---
+
+# .update()
+
+# mySet_2 = {"ALI", "MAMAD"}
+# mySet.update(mySet_2)
+# print(mySet)  # {'MAMAD', 'ALI', 'ali', 'amir', 'mamad'} | یا با هرگونه ترتیبی
+
+# myList2 = ["ALI", "MAMAD"]
+# mySet.update(myList2)
+# print(mySet)  # {'ALI', 'ali', 'mamad', 'MAMAD', 'amir'} | یا با هرگونه ترتیبی
+
+# myTuple2 = ("ALI", "MAMAD")
+# mySet.update(myTuple2)
+# print(mySet)  # {'amir', 'mamad', 'ali', 'MAMAD', 'ALI'} | یا با هرگونه ترتیبی
+
+# ---
+
+# .remove()
+
+# mySet.remove("mamad")
+# print(mySet) # {'amir', 'ali'}
+
+# ---
+
+# .discard()
+
+# mySet.discard("mamad")
+# print(mySet) # {'ali', 'amir'}
+
+# mySet.discard("BRUH")
+# print(mySet) # {'ali', 'amir'} // بر خلاف "ریموو" اگر "آیتم" وجود نداشته باشد "ارور" نمیدهد
+
+# mySet.remove("BRUH")
+# print(mySet) # KeyError: 'BRUH'
+
+# ---
+
+# .pop()
+
+# mySet.pop()
+# print(mySet) # {'ali', 'mamad'} |  {'amir', 'ali'} | یا هر ترتیب دیگه ای
+
+# ---
+
+# .clear()
+
+# mySet.clear()
+# print(mySet)  # set()
+
+# ---
+
+# del
+
+# del mySet
+# print(mySet)  # NameError: name 'mySet' is not defined
+
+# ---
+
+# .union() or |
+
+#.union()
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = mySet.union(mySet2)
+# print(mySet)  # {'ali', 'mamad', 'amir'}
+# print(mySet2)  # {'BRUH', 'BRUH2', 'BRUH3'}
+# print(mySet3)  # {'ali', 'mamad', 'BRUH3', 'BRUH', 'BRUH2', 'amir'}
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = {"BRUH4", "BRUH5", "BRUH6"}
+# mySet4 = {"BRUH7", "BRUH8", "BRUH9"}
+# mySet5 = mySet.union(mySet2, mySet3, mySet4)
+# print(mySet5) # {'BRUH5', 'BRUH8', 'BRUH7', 'BRUH9', 'BRUH4', 'mamad', 'amir', 'BRUH', 'BRUH6', 'BRUH3', 'BRUH2', 'ali'}
+
+# |
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = mySet | mySet2
+# print(mySet)  # {'amir', 'ali', 'mamad'}
+# print(mySet2)  # {'BRUH3', 'BRUH', 'BRUH2'}
+# print(mySet3)  # {'ali', 'BRUH', 'BRUH2', 'amir', 'BRUH3', 'mamad'}
+# mySet2 = {"BRUH", "BRUH2", "BRUH3"}
+# mySet3 = {"BRUH4", "BRUH5", "BRUH6"}
+# mySet4 = {"BRUH7", "BRUH8", "BRUH9"}
+# mySet5 = mySet | mySet2 | mySet3 | mySet4
+# print(mySet5) # {'BRUH8', 'amir', 'BRUH9', 'BRUH2', 'ali', 'mamad', 'BRUH', 'BRUH3', 'BRUH4', 'BRUH6', 'BRUH7', 'BRUH5'}
+
+# ----- Part 27 ( Sets 3 ) -----
