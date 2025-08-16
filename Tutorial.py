@@ -671,3 +671,99 @@
 
 # ----- Part 24 ( Tuples ) -----
 
+# تاپل" همان "لیست" است اما نمیتوان از آن چیزی را تغییر ، اضافه و یا کم کرد"
+# تمامی "متود" های "لیست" نیز یکی است به جز آنهایی که مربوط به تغییر هستمد زیرا با "ارور" مواجه میشوید
+
+myTuple = ("amir", "mamad", "farid", "farbod")
+# print(myTuple) # ('amir', 'mamad', 'farid', 'farbod')
+# print(type(myTuple)) # ('<class 'tuple'>
+
+# ---
+
+# Errors When Try To Change
+
+# myTuple.append("BRUH") # AttributeError: 'tuple' object has no attribute 'append'
+# myTuple[1] = "BRUH" # TypeError: 'tuple' object does not support item assignment
+# print(myTuple) # ('amir', 'mamad', 'farid', 'farbod')
+
+# ---
+
+# Sliceing
+
+# print(myTuple[0]) # amir
+# print(myTuple[1:3]) # ('mamad', 'farid')
+# print(myTuple[:2]) # ('amir', 'mamad')
+# print(myTuple[1:]) # ('mamad', 'farid')
+# print(myTuple[-1]) # farid
+# print(myTuple[-3:-1]) # ('amir', 'mamad')
+
+# ---
+
+# Methods
+
+# print(myTuple.count("amir")) # 1
+# print(myTuple.index("amir")) # 0
+
+# ---
+
+# Tuple Update
+
+# print(myTuple)  # ('amir', 'mamad', 'farid', 'farbod')
+
+# myList = list(myTuple)
+# myList[1] = "BRUH"
+# myTuple = tuple(myList)
+
+# print(myTuple)  # ('amir', 'BRUH', 'farid', 'farbod')
+
+# ---
+
+# Tuple Update With Create New Tuple
+
+# print(myTuple)  # ('amir', 'mamad', 'farid', 'farbod')
+# newItem = ("BRUH",) # Use Comma for Python Detect That Identified a Tuple
+# myTuple += newItem
+# print(myTuple)  # ('amir', 'mamad', 'farid', 'farbod', 'BRUH')
+
+# ---
+
+# Tuple Append
+
+# print(myTuple)  # ('amir', 'mamad', 'farid', 'farbod')
+
+# myList = list(myTuple)
+# myList.append("BRUH")
+# myTuple = tuple(myList)
+
+# print(myTuple)  #('amir', 'mamad', 'farid', 'farbod', 'BRUH')
+
+# ---
+
+# Tuple Remove
+
+# print(myTuple)  # ('amir', 'mamad', 'farid', 'farbod')
+
+# myList = list(myTuple)
+# myList.remove("amir")
+# myTuple = tuple(myList)
+
+# print(myTuple)  # ('mamad', 'farid', 'farbod')
+
+# ---
+
+# del Tuple
+
+# print(myTuple)  # ('amir', 'mamad', 'farid', 'farbod')
+# del myTuple
+# print(myTuple)  # NameError: name 'myTuple' is not defined. Did you mean: 'tuple'?
+
+# ---
+
+# Join Tuple
+
+# myTuple = ("amir", "mamad", "farid", "farbod")
+# myTuple_2 = ("amir", "mamad", "farid", "farbod")
+# myTuple_3 = myTuple + myTuple_2
+# print(myTuple_3)  # ('amir', 'mamad', 'farid', 'farbod', 'amir', 'mamad', 'farid', 'farbod')
+
+# ----- Part 25 ( Sets ) -----
