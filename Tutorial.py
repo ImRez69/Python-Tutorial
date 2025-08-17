@@ -1173,6 +1173,38 @@
 # y = "BRUH" in me
 # print(y)  # False
 
-# ----- Part 30 ( Dictionaries Change & Additems  ) -----
+# ----- Part 30 ( Dictionaries Change & Add ]tems  ) -----
 
+# me = {
+#     "name": "amir",
+#     "city": "tehran",
+#     "age": 20,
+#     "happy": False,
+#     "friends": ["BRUH", "BRUH1", "BRUH2"],
+# }
 
+# ---
+
+# dict[" "] = " "
+
+# print(me["age"]) # 20
+# me["age"] = 22
+# print(me["age"]) # 22
+
+# print(me)  # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# me["BRUH"] = "BRUH"
+# print(me)  # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2'], 'BRUH': 'BRUH'}
+
+# ---
+
+# .update(" "," ")
+
+# print(me["city"])  # tehran
+# me.update({"city": "esfahan"})
+# print(me["city"])  # esfahan
+
+# print(me)  # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# me.update({"BRUH": "BRUH"})
+# print(me)  # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2'], 'BRUH': 'BRUH'}
+
+# ----- Part 31 ( Dictionaries Remove Items  ) -----
