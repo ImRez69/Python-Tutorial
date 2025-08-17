@@ -1208,3 +1208,53 @@
 # print(me)  # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2'], 'BRUH': 'BRUH'}
 
 # ----- Part 31 ( Dictionaries Remove Items  ) -----
+
+me = {
+    "name": "amir",
+    "city": "tehran",
+    "age": 20,
+    "happy": False,
+    "friends": ["BRUH", "BRUH1", "BRUH2"],
+}
+
+# ---
+
+# .pop(" ")
+
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# me.pop("age")
+# print(me) # {'name': 'amir', 'city': 'tehran', 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+
+# ---
+
+# .popitem(" ")
+
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# me.popitem()
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False}
+
+# ---
+
+# del dict[" "]
+
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# del me["friends"]
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False}
+
+# ---
+
+# del dict
+
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# del me
+# print(me) # NameError: name 'me' is not defined
+
+# ---
+
+# .clear()
+
+# print(me) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+# me.clear()
+# print(me) # {}
+
+# ----- Part 32 ( Dictionaries Copy & Nested  ) -----
