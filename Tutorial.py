@@ -921,7 +921,7 @@
 # union() // |	# یکی کردن "ست" ها
 # print( set1 | set2 )
 
-# update() // |= # "آپدیت کردن "ست 
+# update() // |= # "آپدیت کردن "ست
 
 # difference() // -	# تفاوت های "ست" ها را بازمیگرداند
 # print( set1 - set2 )
@@ -1049,5 +1049,33 @@
 # mySet2 = {"BRUH", "BRUH4", "BRUH3"}
 # mySet.symmetric_difference_update(mySet2)
 # print(mySet)  # {'BRUH', 'BRUH3', 'BRUH5'}
+
+# ---
+
+# isdisjoint()
+
+# mySet1 = {"apple", "banana", "cherry"}
+# mySet2 = {"google", "microsoft", "facebook"}
+# mySet3 = mySet1.isdisjoint(mySet2)
+# print(mySet3)  # True
+
+# mySet1 = {"apple", "banana", "cherry"}
+# mySet2 = {"google", "microsoft", "facebook", "apple"}
+# mySet3 = mySet1.isdisjoint(mySet2)
+# print(mySet3)  # False
+
+# ---
+
+# issubset()
+
+# mySet1 = {"apple", "banana", "cherry"}
+# mySet2 = {"google", "microsoft", "facebook"}
+# mySet3 = mySet1.issubset(mySet2)
+# print(mySet3)  # False
+
+# mySet1 = {"apple", "banana", "cherry"}
+# mySet2 = {"google", "microsoft", "apple", "banana", "cherry"}
+# mySet3 = mySet1.issubset(mySet2)
+# print(mySet3)  # True
 
 # ----- Part 28 ( Dictionaries 1 ) -----
