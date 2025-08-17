@@ -1094,3 +1094,85 @@
 
 # ----- Part 29 ( Dictionaries 2 ) -----
 
+# me = {
+#     "name": "amir",
+#     "city": "tehran",
+#     "age": 20,
+#     "happy": False,
+#     "friends": ["BRUH", "BRUH1", "BRUH2"],
+# }
+# print(me["age"]) # 20
+# print(me["name"]) # amir
+
+# ---
+
+# .get()
+
+# x =  me.get("name")
+# print(x) # amir
+
+# ---
+
+# .keys()
+
+# x =  me.keys()
+# print(x) # dict_keys(['name', 'city', 'age', 'happy', 'friends'])
+# print(type(x)) # <class 'dict_keys'>
+
+# ---
+
+# dict["key"] = " "
+
+# x =  me.keys()
+# print(x) # dict_values(['amir', 'tehran', 20, False, ['BRUH', 'BRUH1', 'BRUH2']])
+# me["color"] = "withe"
+# me["color"] = "withe"
+# print(x) # dict_keys(['name', 'city', 'age', 'happy', 'friends', 'color'])
+
+# ---
+
+# .values()
+
+# x =  me.values()
+# print(x) # dict_values(['amir', 'tehran', 20, False, ['BRUH', 'BRUH1', 'BRUH2']])
+# print(type(x)) # <class 'dict_values'>
+
+# ---
+
+# dict["value"] = " "
+
+# x = me.values()
+# print(x)  # dict_values(['amir', 'tehran', 20, False, ['BRUH', 'BRUH1', 'BRUH2']])
+# me["age"] = 22
+# me["color"] = "withe"
+# print(x)  # dict_values(['amir', 'tehran', 22, False, ['BRUH', 'BRUH1', 'BRUH2'], 'withe'])
+
+# ---
+
+# .items()
+
+# x = me.items()
+# print(x)  # dict_items( [ ('name', 'amir'), ('city', 'tehran'), ('age', 20), ('happy', False), ('friends', ['BRUH', 'BRUH1', 'BRUH2']) ] )
+# me["age"] = 22
+# me["color"] = "withe"
+# print(x)  # dict_items([('name', 'amir'), ('city', 'tehran'), ('age', 22), ('happy', False), ('friends', ['BRUH', 'BRUH1', 'BRUH2']), ('color', 'withe')])
+
+# ---
+
+#  " " in dict
+
+# x = me.items()
+# print(x)  # dict_items([('name', 'amir'), ('city', 'tehran'), ('age', 20), ('happy', False), ('friends', ['BRUH', 'BRUH1', 'BRUH2'])])
+
+# y = "name" in me
+# print(y)  # True
+
+# y = "amir" in me
+# print(y)  # False
+
+# y = "BRUH" in me
+# print(y)  # False
+
+# ----- Part 30 ( Dictionaries Change & Additems  ) -----
+
+
