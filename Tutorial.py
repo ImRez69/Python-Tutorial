@@ -1209,13 +1209,13 @@
 
 # ----- Part 31 ( Dictionaries Remove Items  ) -----
 
-me = {
-    "name": "amir",
-    "city": "tehran",
-    "age": 20,
-    "happy": False,
-    "friends": ["BRUH", "BRUH1", "BRUH2"],
-}
+# me = {
+#     "name": "amir",
+#     "city": "tehran",
+#     "age": 20,
+#     "happy": False,
+#     "friends": ["BRUH", "BRUH1", "BRUH2"],
+# }
 
 # ---
 
@@ -1258,3 +1258,65 @@ me = {
 # print(me) # {}
 
 # ----- Part 32 ( Dictionaries Copy & Nested  ) -----
+
+# .copy()
+
+# x = me.copy()
+# print(x) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+
+# ---
+
+# .dict()
+
+# x = dict(me)
+# print(x) # {'name': 'amir', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+
+# ---
+
+# Nested Dictionaries
+
+# myFamily = {
+#     "child1": {"name": "ali", "year": 2000},
+#     "child2": {"name": "amir", "year": 2005},
+#     "child3": {"name": "mamad", "year": 2020},
+# }
+# print(myFamily) # {'child1': {'name': 'ali', 'year': 2000}, 'child2': {'name': 'amir', 'year': 2005}, 'child3': {'name': 'mamad', 'year': 2020}}
+# print(myFamily["child1"]) # {'name': 'ali', 'year': 2000}
+# print(myFamily["child1"]["name"]) # ali
+
+# Or
+
+# child1 = {"name": "ali", "year": 2000}
+# print(child1)  # {'name': 'ali', 'year': 2000}
+
+# child2 = {"name": "amir", "year": 2005}
+# print(child2)  # {'name': 'amir', 'year': 2005}
+
+# child3 = {"name": "mamad", "year": 2020}
+# print(child3)  # {'name': 'mamad', 'year': 2020}
+
+# myFamily = {"child1": child1, "child2": child2, "child3": child3}
+# print(myFamily)  # {'child1': {'name': 'ali', 'year': 2000}, 'child2': {'name': 'amir', 'year': 2005}, 'child3': {'name': 'mamad', 'year': 2020}}
+# print(myFamily["child1"])  # {'name': 'ali', 'year': 2000}
+# print(myFamily["child1"]["name"])  # ali
+
+# ---
+
+# . fromkeys(" "," ")
+
+x = ["key1", "key2", "key3"]
+# or x = ("key1", "key2", "key3")
+# or x = {"key1", "key2", "key3"}
+
+# y = 0
+# or Any Value
+
+# myDict = dict.fromkeys(x, y)
+# print(myDict) # {'key1': 0, 'key2': 0, 'key3': 0}
+
+# Or
+
+# myDict = dict.fromkeys(x)
+# print(myDict) # {'key1': None, 'key2': None, 'key3': None}
+
+# ----- Part 33 ( Conditions 1  ) -----
