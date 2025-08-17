@@ -1304,7 +1304,7 @@
 
 # . fromkeys(" "," ")
 
-x = ["key1", "key2", "key3"]
+# x = ["key1", "key2", "key3"]
 # or x = ("key1", "key2", "key3")
 # or x = {"key1", "key2", "key3"}
 
