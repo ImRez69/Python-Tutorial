@@ -1079,3 +1079,18 @@
 # print(mySet3)  # True
 
 # ----- Part 28 ( Dictionaries 1 ) -----
+
+# me = {
+#     "name": "amir",
+#     "city": "tehran",
+#     "age": 20,
+#     "happy": False,
+#     "friends": ["BRUH", "BRUH1", "BRUH2"],
+#     "name": "mamad",
+# }
+
+# print(type(me)) # <class 'dict'>
+# print(me) # {'name': 'mamad', 'city': 'tehran', 'age': 20, 'happy': False, 'friends': ['BRUH', 'BRUH1', 'BRUH2']}
+
+# ----- Part 29 ( Dictionaries 2 ) -----
+
