@@ -1507,3 +1507,39 @@
 #     print("your username or password is wrong")
 
 # ----- Part 42 ( Practice 5 ) -----
+
+# users = {
+#     "amir": "123456",
+#     "ali": "316551651",
+#     "mamad": "466783",
+#     "milad": "fdsf474",
+# }
+# entered_username = input("Enter Your Username: ")
+# entered_password = input("Enter Your Passwod: ")
+
+# while not entered_username in users or not users[entered_username] == entered_password:
+#     entered_username = input("Wrong, Enter Your Username Again: ")
+#     entered_password = input("Wrong, Enter Your Password Again: ")
+# else: print("You Login Successfully")
+
+# ---
+
+# Or
+
+# users = {
+#     "amir": "123456",
+#     "ali": "316551651",
+#     "mamad": "466783",
+#     "milad": "fdsf474",
+# }
+# entered_username = input("Enter Your Username: ")
+# entered_password = input("Enter Your Passwod: ")
+
+# while entered_username not in users or users[entered_username] != entered_password:
+#     entered_username = input("Wrong, Enter Your Username Again: ")
+#     entered_password = input("Wrong, Enter Your Password Again: ")
+
+# print("You Login Successfully")
+
+# ----- Part 43 ( For Loop 1 ) -----
+ 
