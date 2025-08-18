@@ -1491,3 +1491,19 @@
 #     print("Oh You Dont Have Any Account")
 
 # ----- Part 41 ( Practice 4 ) -----
+
+# users = {
+#     "amir": "123456",
+#     "ali": "316551651",
+#     "mamad": "466783",
+#     "milad": "fdsf474",
+# }
+# entered_username = input("Enter Your Username: ")
+# entered_password = input("Enter Your Passwod: ")
+
+# if entered_username in users and users[entered_username] == entered_password:
+#     print("you login successfully")
+# else:
+#     print("your username or password is wrong")
+
+# ----- Part 42 ( Practice 5 ) -----
