@@ -1459,20 +1459,20 @@
 
 # ----- Part 38 ( Practice 1 ) -----
 
-# user_password = "12345"
+# stored_password = "12345"
 # entered_password = input("Enter Your Password: ")
-# if entered_password == user_password: print("Welcome")
+# if entered_password == stored_password: print("Welcome")
 # else: print(" Ooops Your Password is Wrong")
 
-# ---
+# ----- Part 39 ( Practice 2 ) -----
 
 # With while
 
-# user_password = "12345"
+# stored_password = "12345"
 # entered_password = input("Enter Your Password: ")
-# while entered_password != user_password:
+# while entered_password != stored_password:
 #     entered_password = input("Your Password is Wrong Try Again: ")
 # else: print("Welcome")
 
-# ----- Part 39 ( Practice 2 ) -----
+# ----- Part 40 ( Practice 3 ) -----
 
