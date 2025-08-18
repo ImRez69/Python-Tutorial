@@ -1476,3 +1476,18 @@
 
 # ----- Part 40 ( Practice 3 ) -----
 
+# users = {
+#     "amir": "123456",
+#     "ali": "316551651",
+#     "mamad": "466783",
+#     "milad": "fdsf474",
+# }
+# entered_username = input("Enter Your Username: ")
+# entered_password = input("Enter Your Passwod: ")
+
+# if entered_username in users:
+#     print("Welcome")
+# else:
+#     print("Oh You Dont Have Any Account")
+
+# ----- Part 41 ( Practice 4 ) -----
