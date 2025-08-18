@@ -1457,4 +1457,22 @@
 #     i += 1
 # else: print("i Now Greater thtan 5") # i Now Greater thtan 5
 
-# ----- Part 38 (  ) -----
+# ----- Part 38 ( Practice 1 ) -----
+
+# user_password = "12345"
+# entered_password = input("Enter Your Password: ")
+# if entered_password == user_password: print("Welcome")
+# else: print(" Ooops Your Password is Wrong")
+
+# ---
+
+# With while
+
+# user_password = "12345"
+# entered_password = input("Enter Your Password: ")
+# while entered_password != user_password:
+#     entered_password = input("Your Password is Wrong Try Again: ")
+# else: print("Welcome")
+
+# ----- Part 39 ( Practice 2 ) -----
+
