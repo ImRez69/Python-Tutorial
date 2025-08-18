@@ -1341,8 +1341,8 @@
 
 # ----- Part 35 ( Conditions 3 ) -----
 
-a = int(input("Please Enter Your a Number: "))
-b = int(input("Please Enter Your b Number: "))
+# a = int(input("Please Enter Your a Number: "))
+# b = int(input("Please Enter Your b Number: "))
 
 # Short Hand
 
@@ -1402,9 +1402,19 @@ b = int(input("Please Enter Your b Number: "))
 # pass
 
 # if not a > b: pass
-# if not a > b:  
+# if not a > b:
 #     pass
 
 # ---
 
 # ----- Part 36 ( While Loop 1  ) -----
+
+# i = 1
+
+# while
+
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+# ----- Part 37 ( While Loop 2   ) -----
