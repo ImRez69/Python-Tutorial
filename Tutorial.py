@@ -1418,3 +1418,43 @@
 #     i += 1
 
 # ----- Part 37 ( While Loop 2   ) -----
+
+# i = 1
+
+# ---
+
+# break
+
+# while i <= 5:
+#     print(i)
+#     if i == 3:
+#         break
+#     i += 1
+
+# ---
+
+# continue
+
+# while i <= 5:
+#     i += 1
+#     if i == 3:
+#         continue
+#     print(i)
+
+# ---
+
+# else:
+
+# while i <= 5:
+#     i += 1
+#     if i == 3:
+#         continue
+#     print(i)
+# else: print("i Now Greater thtan 5") # i Now Greater thtan 5
+
+# while i > 5:
+#     print(i)
+#     i += 1
+# else: print("i Now Greater thtan 5") # i Now Greater thtan 5
+
+# ----- Part 38 (  ) -----
