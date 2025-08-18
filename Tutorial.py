@@ -1320,3 +1320,16 @@
 # print(myDict) # {'key1': None, 'key2': None, 'key3': None}
 
 # ----- Part 33 ( Conditions 1  ) -----
+
+# a = int(input("Please Enter Your a Number: "))
+# b = int(input("Please Enter Your b Number: "))
+
+# if a > b:
+#     print(f"a: {a} Greater Than b: {b}")
+# elif a < b:
+#     print(f"b: {b} Greater Than a: {a}")
+# else:
+#     print(f"b: {b} Equal To a: {a}")
+
+# ----- Part 34 ( Conditions 2  ) -----
+
