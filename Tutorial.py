@@ -1340,3 +1340,71 @@
 #     print(f"b: {b} Equal To a: {a}")
 
 # ----- Part 35 ( Conditions 3 ) -----
+
+a = int(input("Please Enter Your a Number: "))
+b = int(input("Please Enter Your b Number: "))
+
+# Short Hand
+
+# if a > b: print(f"a: {a} Greater Than b: {b}")
+# elif a < b: print(f"b: {b} Greater Than a: {a}")
+# else: print(f"b: {b} Equal To a: {a}")
+
+# Or
+
+# print(a) if a > b else print(b)
+
+# Or
+# print("A") if a > b else print("B") if a > b else print("C")
+# # else print("B") if a > b // Here Like elif Short Hand
+
+# ---
+
+# and
+
+# if a > b and a == 20 : print(f"a: {a} Greater Than b: {b}")
+# if a > b or a == b and a == 20 : print("BRUH")
+
+# ---
+
+# or
+
+# if a > b or a == b : print("BRUH")
+# if a > b or a == b and a == 20 : print("BRUH")
+
+
+# ---
+
+# not
+
+# if not a > b: print("BRUH")
+
+# ---
+
+# Nested if
+
+# if not a > b: print("BRUH")
+
+# if a > b:
+
+#     if a == 20:
+#         print(f"a: {a} Equal To 20")
+#     else:
+#         print("test")
+
+#     print(f"a: {a} Greater Than b: {b}")
+
+# else:
+#     print("BRUH")
+
+# ---
+
+# pass
+
+# if not a > b: pass
+# if not a > b:  
+#     pass
+
+# ---
+
+# ----- Part 36 ( While Loop 1  ) -----
