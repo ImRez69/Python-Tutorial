@@ -1326,10 +1326,17 @@
 
 # if a > b:
 #     print(f"a: {a} Greater Than b: {b}")
+
+# ----- Part 34 ( Conditions 2  ) -----
+
+# a = int(input("Please Enter Your a Number: "))
+# b = int(input("Please Enter Your b Number: "))
+
+# if a > b:
+#     print(f"a: {a} Greater Than b: {b}")
 # elif a < b:
 #     print(f"b: {b} Greater Than a: {a}")
 # else:
 #     print(f"b: {b} Equal To a: {a}")
 
-# ----- Part 34 ( Conditions 2  ) -----
-
+# ----- Part 35 ( Conditions 3 ) -----
