@@ -1542,12 +1542,12 @@
 # print("You Login Successfully")
 
 # ----- Part 43 & 44 & 45 & 46 & 47 & 48 ( For Loop 1 & 2 & 3 & 4 & 5 & 6 & 7  ) -----
- 
+
 # myList = ["apple", "banana", "cherry"]
 
 # for x in myList:
 #     print(x)
- 
+
 # ---
 
 # myList = "apple"
@@ -1621,14 +1621,14 @@
 # for x in myList:
 #     print(x)
 # else: print("End")
- 
+
 
 # ---
 
 # for x in range(2, 5):
 #     print(x)
 # else: print("End")
- 
+
 # ---
 
 # mySet1 = ["red", "big", "tasty"]
@@ -1643,7 +1643,7 @@
 # number = 0
 # for x in range(8):
 #     number += 1
-    
+
 # print(number)
 
 # ----- Part 49 ( Practice ) -----
@@ -1653,7 +1653,7 @@
 
 # print(selected_names)
 
-# for name in names: 
+# for name in names:
 #     if name.find("m") != -1:
 #         selected_names.append(name)
 
@@ -1666,7 +1666,7 @@
 
 # print(selected_names)
 
-# for name in names: 
+# for name in names:
 #     for letter in name:
 #         if letter == "m":
 #             selected_names.append(name)
@@ -1680,7 +1680,7 @@
 
 # print(selected_names)
 
-# for name in names: 
+# for name in names:
 #         if name[0] == "m":
 #             selected_names.append(name)
 
@@ -1693,10 +1693,43 @@
 
 # print(selected_names)
 
-# for name in names: 
+# for name in names:
 #         if name[-1] == "n":
 #             selected_names.append(name)
 
 # print(selected_names)
 
 # ----- Part 50 ( Practice 2 ) -----
+
+# names = ["amir","kevin","kamran","ali","mahan","mamad"]
+# names2 = ["amir","kamran","mamad"]
+
+# duplicate_names = set(names) & set(names2)
+# duplicate_names = list(duplicate_names)
+# print(duplicate_names)
+
+# ---
+
+# names = ["amir", "kevin", "kamran", "ali", "mahan", "mamad"]
+# names2 = ["amir", "kamran", "mamad","bruh","bruh2"]
+# duplicate_names = []
+
+# for name in names:
+#     for name2 in names2:
+#         if name == name2:
+#             duplicate_names.append(name)
+# print(duplicate_names) # ['amir', 'kamran', 'mamad']
+
+# ---
+
+# names = ["amir", "kevin", "kamran", "ali", "mahan", "mamad"]
+# names2 = ["amir", "kamran", "mamad","bruh","bruh2"]
+# duplicate_names = []
+
+# for name in names:
+#     for name2 in names2:
+#         if name == name2:
+#             duplicate_names.append(name2)
+# print(duplicate_names) # ['amir', 'kamran', 'mamad']
+
+# ----- Part 51 ( Practice 3 ) -----
