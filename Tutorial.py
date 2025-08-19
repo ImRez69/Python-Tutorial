@@ -1734,7 +1734,7 @@
 
 # ----- Part 51 ( Practice 3 ) -----
 
-# name = input("Neter Your Name: ")
+# name = input("Enter Your Name: ")
 # character = {}
 # for char in name:
 #     if character.get(char):
@@ -1745,7 +1745,7 @@
 
 # ---
 
-# name = input("Neter Your Name: ")
+# name = input("Enter Your Name: ")
 # character = {}
 # for char in name:
 #     character.update({char: name.count(char)})
@@ -1753,7 +1753,7 @@
 
 # ---
 
-# name = input("Neter Your Name: ")
+# name = input("Enter Your Name: ")
 # character = {}
 # for char in name:
 #     character.update({char: name.count(char)})
@@ -1762,7 +1762,7 @@
 
 # ---
 
-# name = input("Neter Your Name: ")
+# name = input("Enter Your Name: ")
 # character = []
 # for char in name:
 #     if char not in character:
@@ -1771,7 +1771,7 @@
 
 # ---
 
-# name = input("Neter Your Name: ")
+# name = input("Enter Your Name: ")
 # name = name.lower()
 # character = []
 # for char in name:
@@ -1781,7 +1781,7 @@
 
 # ---
 
-# name = input("Neter Your Name: ").lower()
+# name = input("Enter Your Name: ").lower()
 # name = name.replace(" ", "")
 # character = []
 # for char in name:
@@ -1791,7 +1791,7 @@
 
 # ---
 
-# name = input("Neter Your Name: ").lower().replace(" ", "")
+# name = input("Enter Your Name: ").lower().replace(" ", "")
 # character = []
 # for char in name:
 #     if char not in character:
@@ -1799,4 +1799,43 @@
 #         character.append(char)
 
 # ----- Part 52 ( Practice 4 ) -----
+
+# number =  int(input("Enter a Number: "))
+# board = ""
+# for x in range(1,number+1):
+#     board += str(f"{x} ")
+#     print(board)
+
+# ---
+
+# user_number =  int(input("Enter a Number: "))
+# number = 0
+# for x in range(1 , user_number + 1):
+#     number += x 
+# print(number)
+
+# ---
+
+# for x in range(num, 20, 2): 
+#     print(x)
+
+# ---
+
+# user_number =  int(input("Enter a Number: "))
+# for x in range(1, 11): 
+#     answer = user_number * x
+#     print(answer)
+
+# ---
+
+# numbers = [12, 75, 150, 180, 145, 525, 50]
+# for x in numbers: 
+#     if x > 500:
+#         break
+#     elif x > 150:
+#         continue
+#     elif x % 5 == 0:
+#         print(x)
+
+# ----- Part 53 ( Funxtion 1 ) -----
 
