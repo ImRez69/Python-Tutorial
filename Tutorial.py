@@ -1733,3 +1733,70 @@
 # print(duplicate_names) # ['amir', 'kamran', 'mamad']
 
 # ----- Part 51 ( Practice 3 ) -----
+
+# name = input("Neter Your Name: ")
+# character = {}
+# for char in name:
+#     if character.get(char):
+#         character[char] += 1
+#         break
+#     character.update({char: 1})
+# print(character)
+
+# ---
+
+# name = input("Neter Your Name: ")
+# character = {}
+# for char in name:
+#     character.update({char: name.count(char)})
+# print(character)
+
+# ---
+
+# name = input("Neter Your Name: ")
+# character = {}
+# for char in name:
+#     character.update({char: name.count(char)})
+# for x in character:
+#     print(f"{x}: {character[x]}")
+
+# ---
+
+# name = input("Neter Your Name: ")
+# character = []
+# for char in name:
+#     if char not in character:
+#         print(f"Your Name Has {name.count(char)} {char}")
+#         character.append(char)
+
+# ---
+
+# name = input("Neter Your Name: ")
+# name = name.lower()
+# character = []
+# for char in name:
+#     if char not in character:
+#         print(f"Your Name Has {name.count(char)} {char}")
+#         character.append(char)
+
+# ---
+
+# name = input("Neter Your Name: ").lower()
+# name = name.replace(" ", "")
+# character = []
+# for char in name:
+#     if char not in character:
+#         print(f"Your Name Has {name.count(char)} {char}")
+#         character.append(char)
+
+# ---
+
+# name = input("Neter Your Name: ").lower().replace(" ", "")
+# character = []
+# for char in name:
+#     if char not in character:
+#         print(f"Your Name Has {name.count(char)} {char}")
+#         character.append(char)
+
+# ----- Part 52 ( Practice 4 ) -----
+
