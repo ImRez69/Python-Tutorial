@@ -1837,5 +1837,9 @@
 #     elif x % 5 == 0:
 #         print(x)
 
+# ---
+
+# https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/
+
 # ----- Part 53 ( Funxtion 1 ) -----
 
