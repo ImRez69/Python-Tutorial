@@ -1647,3 +1647,56 @@
 # print(number)
 
 # ----- Part 49 ( Practice ) -----
+
+# names = ["amir","kevin","kamran","ali","mahan","mamad"]
+# selected_names = []
+
+# print(selected_names)
+
+# for name in names: 
+#     if name.find("m") != -1:
+#         selected_names.append(name)
+
+# print(selected_names)
+
+# ---
+
+# names = ["amir","kevin","kamran","ali","mahan","mamad"]
+# selected_names = []
+
+# print(selected_names)
+
+# for name in names: 
+#     for letter in name:
+#         if letter == "m":
+#             selected_names.append(name)
+
+# print(selected_names)
+
+# ---
+
+# names = ["amir","kevin","kamran","ali","mahan","mamad"]
+# selected_names = []
+
+# print(selected_names)
+
+# for name in names: 
+#         if name[0] == "m":
+#             selected_names.append(name)
+
+# print(selected_names)
+
+# ---
+
+# names = ["amir","kevin","kamran","ali","mahan","mamad"]
+# selected_names = []
+
+# print(selected_names)
+
+# for name in names: 
+#         if name[-1] == "n":
+#             selected_names.append(name)
+
+# print(selected_names)
+
+# ----- Part 50 ( Practice 2 ) -----
