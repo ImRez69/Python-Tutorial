@@ -1541,5 +1541,109 @@
 
 # print("You Login Successfully")
 
-# ----- Part 43 ( For Loop 1 ) -----
+# ----- Part 43 & 44 & 45 & 46 & 47 & 48 ( For Loop 1 & 2 & 3 & 4 & 5 & 6 & 7  ) -----
  
+# myList = ["apple", "banana", "cherry"]
+
+# for x in myList:
+#     print(x)
+ 
+# ---
+
+# myList = "apple"
+
+# for x in myList:
+#     print(x)
+
+# ---
+
+# myList = ["apple", "banana", "cherry"]
+
+# for x in myList:
+#     if x == "banana":
+#         break
+#     print(x)
+
+# ---
+
+# myList = ["apple", "banana", "cherry"]
+
+# for x in myList:
+#     if x == "banana":
+#         continue
+#     print(x)
+
+# ---
+
+# myList = ["apple", "banana", "cherry"]
+
+# for x in myList:
+#     pass
+
+# ---
+
+# for x in range(5):
+#     print(x)
+
+# ---
+
+# for x in range(2, 5):
+#     print(x)
+
+# ---
+
+# for x in range(2, 30, 3):
+#     print(x)
+
+# ---
+
+# for x in range(2, 30, 3):
+#     print(x)
+
+# ---
+
+# for x in range(5):
+#     if x == 3:
+#         break
+#     print(x)
+
+# ---
+
+# for x in range(5):
+#     if x == 3:
+#         continue
+#     print(x)
+
+# ---
+
+# myList = ["apple", "banana", "cherry"]
+
+# for x in myList:
+#     print(x)
+# else: print("End")
+ 
+
+# ---
+
+# for x in range(2, 5):
+#     print(x)
+# else: print("End")
+ 
+# ---
+
+# mySet1 = ["red", "big", "tasty"]
+# mySet2 = ["apple", "banana", "cherry"]
+
+# for x in mySet1:
+#     for y in mySet2:
+#         print(x,y)
+
+# ---
+
+# number = 0
+# for x in range(8):
+#     number += 1
+    
+# print(number)
+
+# ----- Part 49 ( Practice ) -----
