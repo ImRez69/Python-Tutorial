@@ -1843,3 +1843,24 @@
 
 # ----- Part 53 ( Funxtion 1 ) -----
 
+# def my_function():
+#     print("Bruh")
+
+# my_function()
+# my_function()
+# my_function()
+
+# ---
+
+# name = input("Enter Your Name: ").lower().replace(" ", "")
+
+# def char_calculator(word): 
+#     character = []
+#     for char in word:
+#         if char not in character:
+#             print(f"Your Name Has {name.count(char)} {char}")
+#             character.append(char)
+
+# char_calculator(name)
+
+# ----- Part 54 ( Funxtion 2 ) -----
