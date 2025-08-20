@@ -1932,14 +1932,19 @@
 
 # sum(fisrt_number,secend_number)
 
-# ---
 
-# def sum(a, b):
+# ----- Part 55 ( Function 3  ) -----
+
+# def sum(a, b):  # Parameter
 #     print(a + b)
 #     print(a - b)
 #     print(a * b)
 #     print(a / b)
 
-# sum(20,10)
+# sum(20,10) # Argument   
 
-# ----- Part 55 ( Funxtion  ) -----
+# ----- Part 56 ( Practice  ) -----
+
+
+
+# ----- Part 57 ( Function 4  ) -----
