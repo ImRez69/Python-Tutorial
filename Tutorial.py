@@ -1811,25 +1811,25 @@
 # user_number =  int(input("Enter a Number: "))
 # number = 0
 # for x in range(1 , user_number + 1):
-#     number += x 
+#     number += x
 # print(number)
 
 # ---
 
-# for x in range(num, 20, 2): 
+# for x in range(num, 20, 2):
 #     print(x)
 
 # ---
 
 # user_number =  int(input("Enter a Number: "))
-# for x in range(1, 11): 
+# for x in range(1, 11):
 #     answer = user_number * x
 #     print(answer)
 
 # ---
 
 # numbers = [12, 75, 150, 180, 145, 525, 50]
-# for x in numbers: 
+# for x in numbers:
 #     if x > 500:
 #         break
 #     elif x > 150:
@@ -1854,7 +1854,7 @@
 
 # name = input("Enter Your Name: ").lower().replace(" ", "")
 
-# def char_calculator(word): 
+# def char_calculator(word):
 #     character = []
 #     for char in word:
 #         if char not in character:
@@ -1864,3 +1864,82 @@
 # char_calculator(name)
 
 # ----- Part 54 ( Funxtion 2 ) -----
+
+# def say_name(name):
+#     print(f"Hi {name}")
+#     print(f"How Are You? {name}")
+
+# say_name("BRUH")
+
+# ---
+
+# entered_name = input("Enter Your Name: ")
+
+# def say_name(name):
+#     print(f"Hi {name}")
+#     print(f"How Are You? {name}")
+
+# ---
+
+# def say_name(name):
+#     print(f"Hi {name}")
+#     print(f"How Are You? {name}")
+
+# say_name(name="BRUH")
+
+# ---
+
+# def say_name(name):
+#     print(f"Hi {name}, {lastname}")
+#     print(f"How Are You? {name}, {lastname}")
+
+# say_name(name="BRUH" , lastname= "BRUH ABAD") # TypeError: say_name() got an unexpected keyword argument 'lastname'
+
+# ---
+
+# def say_name(name):
+#     print(f"Hi {name}")
+#     print(f"How Are You? {name}")
+
+# say_name(name="BRUH" , lastname= "BRUH ABAD") # TypeError: say_name() got an unexpected keyword argument 'lastname'
+
+# ---
+
+# def say_name(name):
+#     print(f"Hi {name}")
+#     print(f"How Are You? {name}")
+
+# say_name("BRUH" , "BRUH ABAD") # TypeError: say_name() takes 1 positional argument but 2 were given
+
+# ---
+
+# def say_name(name,lastname):
+#     print(f"Hi {name}, {lastname}")
+#     print(f"How Are You? {name}, {lastname}")
+
+# say_name(name="BRUH" , lastname= "BRUH ABAD")
+
+# ---
+
+# fisrt_number = int(input("Please Enter a Number:"))
+# secend_number = int(input("Please Enter a Number:"))
+
+# def sum(a, b):
+#     print(a + b)
+#     print(a - b)
+#     print(a * b)
+#     print(a / b)
+
+# sum(fisrt_number,secend_number)
+
+# ---
+
+# def sum(a, b):
+#     print(a + b)
+#     print(a - b)
+#     print(a * b)
+#     print(a / b)
+
+# sum(20,10)
+
+# ----- Part 55 ( Funxtion  ) -----
