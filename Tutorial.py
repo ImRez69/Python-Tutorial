@@ -1941,10 +1941,29 @@
 #     print(a * b)
 #     print(a / b)
 
-# sum(20,10) # Argument   
+# sum(20,10) # Argument
 
 # ----- Part 56 ( Practice  ) -----
 
+# password = input("Please Enter Your Passwrod:").lower().replace(" ", "")
+# numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+# alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+# def valid_check(word):
+#     if len(word) > 8:
+#         return True
+
+#     for n in numbers:
+#         if n in word:
+#             return True
+        
+#     for l in alphabet:
+#         if l in word:
+#             return True
+#     return False
+
+# while valid_check(password):
+#     password = input("Try Again:").lower().replace(" ", "")
+    
 
 # ----- Part 57 ( Function 4  ) -----
