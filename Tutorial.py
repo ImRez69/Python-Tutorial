@@ -1954,7 +1954,7 @@
 #         password = input("Password must be have alphabet \nTry Again: ").lower().replace(" ", "")
 #     while password.isalpha():
 #         password = input("Password must be have numbers \nTry Again: ").lower().replace(" ", "")
-#     print("Welcome")    
+#     print("Welcome")
 
 # valid_check(password)
 
@@ -1969,7 +1969,7 @@
 #         password = input("Password must be have alphabet \nTry Again: ").lower().replace(" ", "")
 #     while password.isalpha():
 #         password = input("Password must be have numbers \nTry Again: ").lower().replace(" ", "")
-#     print("Welcome")    
+#     print("Welcome")
 
 # valid_check(password)
 
@@ -1983,10 +1983,38 @@
 #     elif password.isalpha():
 #         password = input("Password must be have numbers \nTry Again: ").lower().replace(" ", "")
 #     else:
-#         print("Welcome")    
+#         print("Welcome")
 
 # while True:
 #     password = input("Please Enter Your Passwrod:").lower().replace(" ", "")
 #     valid_check(password)
 
 # ----- Part 57 ( Function 4  ) -----
+
+# def say_hello(first,secend):
+#     print(f"hi {first}, {secend}")
+
+# say_hello("ali","akbar")
+
+# ---
+
+# def say_hello(first,secend,*more):
+#     print(f"hi {first}, {secend}, {more}")
+
+# say_hello("ali","akbar","akbar")
+
+# ---
+
+# def say_hello(*more):
+#     print(f"hi {more}") # hi ('ali', 'akbar', 'akbar')
+
+# say_hello("ali","akbar","akbar")
+
+# ---
+
+# def say_hello(*more):
+#     print(f"hi {str(more).replace("(","").replace(")","")}")
+
+# say_hello("ali","akbar","akbar") # hi 'ali', 'akbar', 'akbar'
+
+# ----- Part 58 ( Function 5 ) -----
