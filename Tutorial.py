@@ -1854,9 +1854,9 @@
 
 # name = input("Enter Your Name: ").lower().replace(" ", "")
 
-# def char_calculator(word):
+# def char_calculator(password):
 #     character = []
-#     for char in word:
+#     for char in password:
 #         if char not in character:
 #             print(f"Your Name Has {name.count(char)} {char}")
 #             character.append(char)
@@ -1946,24 +1946,47 @@
 # ----- Part 56 ( Practice  ) -----
 
 # password = input("Please Enter Your Passwrod:").lower().replace(" ", "")
-# numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-# alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-# def valid_check(word):
-#     if len(word) > 8:
-#         return True
+# def valid_check(password):
+#     while len(password) < 8:
+#         password = input("Password be bigger or equal to 8 character \nTry Again: ").lower().replace(" ", "")
+#     while password.isdigit():
+#         password = input("Password must be have alphabet \nTry Again: ").lower().replace(" ", "")
+#     while password.isalpha():
+#         password = input("Password must be have numbers \nTry Again: ").lower().replace(" ", "")
+#     print("Welcome")    
 
-#     for n in numbers:
-#         if n in word:
-#             return True
-        
-#     for l in alphabet:
-#         if l in word:
-#             return True
-#     return False
+# valid_check(password)
 
-# while valid_check(password):
-#     password = input("Try Again:").lower().replace(" ", "")
-    
+# ---
+
+# password = input("Please Enter Your Passwrod:").lower().replace(" ", "")
+
+# def valid_check(password):
+#     while len(password) < 8:
+#         password = input("Password be bigger or equal to 8 character \nTry Again: ").lower().replace(" ", "")
+#     while password.isnumeric():
+#         password = input("Password must be have alphabet \nTry Again: ").lower().replace(" ", "")
+#     while password.isalpha():
+#         password = input("Password must be have numbers \nTry Again: ").lower().replace(" ", "")
+#     print("Welcome")    
+
+# valid_check(password)
+
+# ---
+
+# def valid_check(password):
+#     if len(password) < 8:
+#         password = input("Password be bigger or equal to 8 character \nTry Again: ").lower().replace(" ", "")
+#     elif password.isnumeric():
+#         password = input("Password must be have alphabet \nTry Again: ").lower().replace(" ", "")
+#     elif password.isalpha():
+#         password = input("Password must be have numbers \nTry Again: ").lower().replace(" ", "")
+#     else:
+#         print("Welcome")    
+
+# while True:
+#     password = input("Please Enter Your Passwrod:").lower().replace(" ", "")
+#     valid_check(password)
 
 # ----- Part 57 ( Function 4  ) -----
