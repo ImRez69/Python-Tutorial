@@ -2061,3 +2061,21 @@
 # my_function(fruits) 
  
 # ----- Part 61 ( Function 8 ) -----
+
+# def my_function(x): 
+#     return x * 5 
+ 
+# print(my_function(2)) # 10
+# print(my_function(4)) # 20
+# print(my_function(5)) # 25
+ 
+# --- 
+
+# def my_function(x): 
+#     return x * 5 , x 
+ 
+# print(my_function(2)) # (10, 2)
+# print(my_function(4)) # (20, 4)
+# print(my_function(5)) # (25, 5)
+ 
+# ----- Part 62 ( Function 9 ) -----
