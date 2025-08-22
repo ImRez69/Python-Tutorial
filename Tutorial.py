@@ -2037,3 +2037,17 @@
 # say_hello("BRUH", "BRUH","male", age=20, city="tehran")
 
 # ----- Part 59 ( Function 6 ) -----
+
+# def say_hello(first,secend = "akbar"): 
+#     print(f"hi {first}, {secend}") # hi ali, akbar 
+# say_hello("ali") 
+ 
+# --- 
+ 
+# def say_hello(first,secend = "akbar"): 
+#     print(f"hi {first}, {secend}") # hi ali, akbar 
+ 
+# say_hello("ali") # hi ali, akbar 
+# say_hello("ali","BRUH") # hi ali, BRUH 
+ 
+# ----- Part 60 ( Function 7 ) -----
