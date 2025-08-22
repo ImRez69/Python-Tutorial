@@ -2038,44 +2038,76 @@
 
 # ----- Part 59 ( Function 6 ) -----
 
-# def say_hello(first,secend = "akbar"): 
-#     print(f"hi {first}, {secend}") # hi ali, akbar 
-# say_hello("ali") 
- 
-# --- 
- 
-# def say_hello(first,secend = "akbar"): 
-#     print(f"hi {first}, {secend}") # hi ali, akbar 
- 
-# say_hello("ali") # hi ali, akbar 
-# say_hello("ali","BRUH") # hi ali, BRUH 
- 
+# def say_hello(first,secend = "akbar"):
+#     print(f"hi {first}, {secend}") # hi ali, akbar
+# say_hello("ali")
+
+# ---
+
+# def say_hello(first,secend = "akbar"):
+#     print(f"hi {first}, {secend}") # hi ali, akbar
+
+# say_hello("ali") # hi ali, akbar
+# say_hello("ali","BRUH") # hi ali, BRUH
+
 # ----- Part 60 ( Function 7 ) -----
 
-# def my_function(food): 
-#     for x in food: 
-#         print(x) 
- 
-# fruits = ["apple", "banana", "cherry"] 
- 
-# my_function(fruits) 
- 
+# def my_function(food):
+#     for x in food:
+#         print(x)
+
+# fruits = ["apple", "banana", "cherry"]
+
+# my_function(fruits)
+
 # ----- Part 61 ( Function 8 ) -----
 
-# def my_function(x): 
-#     return x * 5 
- 
+# def my_function(x):
+#     return x * 5
+
 # print(my_function(2)) # 10
 # print(my_function(4)) # 20
 # print(my_function(5)) # 25
- 
-# --- 
 
-# def my_function(x): 
-#     return x * 5 , x 
- 
+# ---
+
+# def my_function(x):
+#     return x * 5 , x
+
 # print(my_function(2)) # (10, 2)
 # print(my_function(4)) # (20, 4)
 # print(my_function(5)) # (25, 5)
- 
+
 # ----- Part 62 ( Function 9 ) -----
+
+# username = input("enter username: ")
+
+# def valid(user_name):
+#     if len(user_name) > 8:
+#         return False
+#     else:
+#         return True
+    
+# if valid(username):
+#     print(f"{username} is ok")
+# else:
+#     print(f"{username} is wrong")
+
+# ---
+
+# username = input("enter username: ")
+
+# def valid(user_name):
+#     if len(user_name) > 8:
+#         return False
+#     else:
+#         return True
+
+# while valid(username):
+#     username = input("enter username: ")
+
+# ---
+
+# def my_function(food): pass
+
+# ----- Part 63 ( Function 10 ) -----
