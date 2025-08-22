@@ -2111,3 +2111,26 @@
 # def my_function(food): pass
 
 # ----- Part 63 ( Function 10 ) -----
+
+#
+# # def my_function(x, y, /):
+# #     print(x, y)
+#
+# # my_function(3, 5) # 3 5
+# # my_function(x =3, y =5) # TypeError: my_function() got some positional-only arguments passed as keyword arguments: 'x, y'
+#
+# # ---
+#
+# # def my_function(*, x, y):
+# #     print(x, y)
+#
+# # my_function(x=3, y=5) # 3 5
+# # my_function(3, 5) # TypeError: my_function() takes 0 positional arguments but 2 were given
+#
+# # ---
+#
+# # def my_function(x, y, /, *, a, b):
+# #     print(x, y, a, b)
+#
+# # my_function(3, 5, a=4, b=6)  # 3 5 4 6
+# # my_function(4, 6 ,x=3, y=5)  # TypeError: my_function() got some positional-only arguments passed as keyword arguments: 'x, y'
