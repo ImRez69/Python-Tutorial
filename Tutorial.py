@@ -2051,3 +2051,13 @@
 # say_hello("ali","BRUH") # hi ali, BRUH 
  
 # ----- Part 60 ( Function 7 ) -----
+
+# def my_function(food): 
+#     for x in food: 
+#         print(x) 
+ 
+# fruits = ["apple", "banana", "cherry"] 
+ 
+# my_function(fruits) 
+ 
+# ----- Part 61 ( Function 8 ) -----
