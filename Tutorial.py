@@ -1998,23 +1998,42 @@
 
 # ---
 
-# def say_hello(first,secend,*more):
-#     print(f"hi {first}, {secend}, {more}")
+# def say_hello(first,secend,*args):
+#     print(f"hi {first}, {secend}, {args}")
 
 # say_hello("ali","akbar","akbar")
 
 # ---
 
-# def say_hello(*more):
-#     print(f"hi {more}") # hi ('ali', 'akbar', 'akbar')
+# def say_hello(*args):
+#     print(f"hi {args}") # hi ('ali', 'akbar', 'akbar')
 
 # say_hello("ali","akbar","akbar")
 
 # ---
 
-# def say_hello(*more):
-#     print(f"hi {str(more).replace("(","").replace(")","")}")
+# def say_hello(*args):
+#     print(f"hi {str(args).replace("(","").replace(")","")}")
 
 # say_hello("ali","akbar","akbar") # hi 'ali', 'akbar', 'akbar'
 
 # ----- Part 58 ( Function 5 ) -----
+
+# def say_hello(**kwargs):
+#     print(f"hi {kwargs}") # hi {'name': 'ali', 'lastname': 'akbari'}
+#     print(f"hi {kwargs["fname"]}") # hi ali
+
+# say_hello(fname="ali",lastname="akbari")
+
+# ---
+
+# def say_hello(fname, lname, *args, **kwargs):
+#     print(fname)  # BRUH
+#     print(lname)  # BRUH
+#     print(args)  # ('male',)
+#     print(kwargs)  # {'age': 20, 'city': 'tehran'}
+#     print(kwargs["age"])  # 20
+
+# say_hello("BRUH", "BRUH","male", age=20, city="tehran")
+
+# ----- Part 59 ( Function 6 ) -----
