@@ -2451,4 +2451,9 @@
 
 # print(x) # [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
-# ----- Part 70 ( Practice ) -----
+# ----- Part 70 ( Pain & heartache ) -----
+
+# Pain & heartache
+
+# ----- Part 71 (  ) -----
+
