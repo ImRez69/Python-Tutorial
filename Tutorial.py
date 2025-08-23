@@ -2308,3 +2308,58 @@
 
 # ----- Part 68 ( Lambda 2 ) -----
  
+# def myFunc(x):
+#     def new(y):
+#         return y * x
+#     return new
+
+# myFunc2  = myFunc(2)
+# print(myFunc(2)) # <function myFunc.<locals>.new at 0x000002176BCEC0E0>
+# print(myFunc2(5)) # 10
+
+# ---
+
+# def myFunc(x):
+#     return lambda y : y * x
+
+# myFunc2  = myFunc(2)
+# print(myFunc(2)) # None
+
+# print(myFunc2(5)) # 10
+# print(myFunc2(50)) # 100
+# print(myFunc2(500)) # 1000
+
+# kabisi = lambda n : int(n%33)
+# if kabisi(50) == 0:
+#     print(kabisi(50),"True")
+# else:
+#     print(kabisi(50),"Flase")
+
+# ---
+
+# print("enter your birtday")
+# day = int(input("enter day: "))
+# month = int(input("enter month: "))
+# year = int(input("enter year: "))
+
+# def shamsi_to_mildai(d, m, y):
+#     kabise = lambda n : n % 33
+#     kabise_number = [1,5,9,13,17,22,26,30]
+#     if kabise(y) in kabise_number:
+#         if d > 11 and m == 10:
+#             y += 622
+#             return y
+#         else:
+#             y += 621
+#             return y
+
+#     if d > 10 and m == 10:
+#         y += 622
+#         return y
+#     else:
+#         y += 621
+#         return y
+
+# print(f"year of your birthday is: {shamsi_to_mildai(day, month, year)}")
+
+# ----- Part 69 ( Map Function ) -----
