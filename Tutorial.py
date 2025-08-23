@@ -2251,7 +2251,7 @@
 
 # ----- Part 66 ( Function 13 ) -----
 
-# Change Theme & Change Toggle Comment Shortcut 
+# Change Theme & Change Toggle Comment Shortcut
 
 # Extra
 # def my_function(x, y, /):
@@ -2307,7 +2307,7 @@
 # print(myFunc(3, 5, 4)) # 60
 
 # ----- Part 68 ( Lambda 2 ) -----
- 
+
 # def myFunc(x):
 #     def new(y):
 #         return y * x
@@ -2362,4 +2362,93 @@
 
 # print(f"year of your birthday is: {shamsi_to_mildai(day, month, year)}")
 
-# ----- Part 69 ( Map Function ) -----
+# ----- Part 69 ( Lambda 3 & Map Function ) -----
+
+# def myFunc(n):
+#     return len(n)
+
+# myTuple = ("apple1", "apple12", "apple123")
+
+# print(myTuple) # ('apple1', 'apple12', 'apple123')
+# myMap = map(myFunc, myTuple)
+# print(type(myMap)) # <class 'map'>
+# print(tuple(myMap)) # (6, 7, 8) 
+
+# ---
+
+# def myFunc(n):
+#     return len(n)
+
+# myTuple = ("apple1", "apple12", "apple123")
+
+# print(myTuple) # ('apple1', 'apple12', 'apple123')
+# myTuple = tuple(map(myFunc, myTuple))
+# print(myTuple) # (6, 7, 8)
+
+# ---
+
+# myMap = lambda n : len(n)
+
+# myTuple = ("apple1", "apple12", "apple123")
+
+# print(myTuple) # ('apple1', 'apple12', 'apple123')
+# myTuple = tuple(map(myMap, myTuple))
+# print(myTuple) # (6, 7, 8)
+
+# ---
+
+# myMap = lambda n : len(n)
+
+# myTuple = ("apple1", "apple12", "apple123")
+
+# print(myTuple) # ('apple1', 'apple12', 'apple123')
+# for x in myTuple:
+#     print(myMap(x))
+
+# ---
+
+# myTuple = ("apple1", "apple12", "apple123")
+# print(myTuple) # ('apple1', 'apple12', 'apple123')
+# myTuple = tuple(map(lambda n : len(n), myTuple))
+# print(myTuple) # (6, 7, 8)
+
+# ---
+
+# myTuple = (1,2,3,4)
+# myTuple2 = (1,2,3,4)
+# myMap = lambda n, b: n + b
+
+# myTuple = tuple(map(myMap, myTuple, myTuple2))
+# print(myTuple) # (2, 4, 6, 8)
+
+# ---
+
+# myList = [1,2,3,4,5,6,7,8,9,10]
+# myList2 = [1,2,3,4,5,6,7,8,9,10]
+# myMap = lambda n ,n2 : n * n2
+
+# myTuple = map(myMap, myList, myList2)
+# print(list(myTuple)) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# print(list(myTuple)) # []
+
+# ---
+
+# myList = [1,2,3,4,5,6,7,8,9,10]
+# myList2 = [1,2,3,4,5,6,7,8,9,10]
+# myMap = lambda n ,n2 : n * n2
+
+# myTuple = list(map(myMap, myList, myList2))
+# print(myTuple) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# print(myTuple) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# ---
+
+# myList = [1,2,3,4,5,6,7,8,9,10]
+# x = []
+
+# for n in myList:
+#     x.append(n * 10)
+
+# print(x) # [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# ----- Part 70 ( Practice ) -----
