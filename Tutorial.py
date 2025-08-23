@@ -2087,7 +2087,7 @@
 #         return False
 #     else:
 #         return True
-    
+
 # if valid(username):
 #     print(f"{username} is ok")
 # else:
@@ -2112,25 +2112,39 @@
 
 # ----- Part 63 ( Function 10 ) -----
 
-#
-# # def my_function(x, y, /):
-# #     print(x, y)
-#
-# # my_function(3, 5) # 3 5
-# # my_function(x =3, y =5) # TypeError: my_function() got some positional-only arguments passed as keyword arguments: 'x, y'
-#
-# # ---
-#
-# # def my_function(*, x, y):
-# #     print(x, y)
-#
-# # my_function(x=3, y=5) # 3 5
-# # my_function(3, 5) # TypeError: my_function() takes 0 positional arguments but 2 were given
-#
-# # ---
-#
-# # def my_function(x, y, /, *, a, b):
-# #     print(x, y, a, b)
-#
-# # my_function(3, 5, a=4, b=6)  # 3 5 4 6
-# # my_function(4, 6 ,x=3, y=5)  # TypeError: my_function() got some positional-only arguments passed as keyword arguments: 'x, y'
+# input = input("enter a word: ")
+
+# def count(str):
+#     upper_char = 0
+#     lower_char = 0
+#     for char in str:
+#         if char.isupper():
+#             upper_char += 1
+#         elif char.islower():
+#             lower_char += 1
+#         else: 
+#             pass
+    
+#     print(f"upper char used: {upper_char} , lower char used: {lower_char}")
+
+# count(input)
+
+# ---
+
+# def count(str):
+#     upper_char = 0
+#     lower_char = 0
+#     for char in str:
+#         if char.isupper():
+#             upper_char += 1
+#         elif char.islower():
+#             lower_char += 1
+#         else: 
+#             pass
+    
+#     print(f"upper char used: {upper_char} , lower char used: {lower_char}")
+
+# while True:
+#     count(input("enter a word: "))
+
+# ----- Part 64 ( Function 11 ) -----
