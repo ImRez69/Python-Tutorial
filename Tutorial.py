@@ -2122,9 +2122,9 @@
 #             upper_char += 1
 #         elif char.islower():
 #             lower_char += 1
-#         else: 
+#         else:
 #             pass
-    
+
 #     print(f"upper char used: {upper_char} , lower char used: {lower_char}")
 
 # count(input)
@@ -2139,12 +2139,35 @@
 #             upper_char += 1
 #         elif char.islower():
 #             lower_char += 1
-#         else: 
+#         else:
 #             pass
-    
+
 #     print(f"upper char used: {upper_char} , lower char used: {lower_char}")
 
 # while True:
 #     count(input("enter a word: "))
 
 # ----- Part 64 ( Function 11 ) -----
+
+# def count(integer):
+#     if integer % 2 == 0:
+#         print(f"{integer} is a odd number")
+#     else:
+#         print(f"{integer} is a even number")
+
+# input = int(input("enter a number: "))
+# count(input)
+
+# ---
+
+# def number_count(integer):
+#     if integer % 2 == 0:
+#         print(f"{integer} is a even number")
+#     else:
+#         print(f"{integer} is a odd number")
+
+# while True:
+#     user_number = int(input("enter a number: "))
+#     number_count(user_number) 
+
+# ----- Part 65 ( Function 12 ) -----
