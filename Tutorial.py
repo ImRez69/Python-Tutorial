@@ -2372,7 +2372,7 @@
 # print(myTuple) # ('apple1', 'apple12', 'apple123')
 # myMap = map(myFunc, myTuple)
 # print(type(myMap)) # <class 'map'>
-# print(tuple(myMap)) # (6, 7, 8) 
+# print(tuple(myMap)) # (6, 7, 8)
 
 # ---
 
@@ -2457,28 +2457,57 @@
 
 # ----- Part 71 ( OOP 1 ) -----
 
-# OOP - Object Oriented Programming 
-# Inherits 
+# OOP - Object Oriented Programming
+# Inherits
 
 # ----- Part 72 ( OOP 2 ) -----
 
 # class MyClass:
 #     x = 5
+#     y = 20
 
 # print(MyClass) # <class '__main__.MyClass'>
 # print(MyClass()) # <__main__.MyClass object at 0x000002413CCB6A50>
 
-# p1 = MyClass()
+# p1 = MyClass() # Create Object / Instant / نمونه
 # print(p1) # <__main__.MyClass object at 0x0000012C937D6A50>
 # print(p1.x) # 5
+# print(p1.y) # 20
 
-# p2 = MyClass()
+# p2 = MyClass() # Create Object / Instant / نمونه
 # print(p2) # <__main__.MyClass object at 0x0000012C93A54A50>
 # print(p2.x) # 5
+# print(p2.y) # 20
 
-# p3 = MyClass()
+# p3 = MyClass() # Create Object / Instant / نمونه
 # print(p3) # <__main__.MyClass object at 0x0000012C93A54B90>
 # print(p3.x) # 5
+# print(p3.y) # 20
 
 # ----- Part 73 ( OOP 3 ) -----
 
+# class MyClass:
+#     def __init__(x, name, lastname):
+#         x.myname = name
+#         x.mylastname = lastname
+
+# p1 = MyClass("Mamad", "Mohamadi")
+# p2 = MyClass("Ali","Aliei")
+
+# print(p1.myname, p1.mylastname) # Mamad Mohamadi
+# print(p2.myname, p2.mylastname) # Ali Aliei
+
+# ---
+
+# class MyClass:
+#     def __init__(self, name, lastname):
+#         self.myname = name
+#         self.mylastname = lastname
+
+# p1 = MyClass("Mamad", "Mohamadi")
+# p2 = MyClass("Ali","Aliei")
+
+# print(p1.myname, p1.mylastname) # Mamad Mohamadi
+# print(p2.myname, p2.mylastname) # Ali Aliei
+
+# ----- Part 74 ( OOP 4 ) -----
