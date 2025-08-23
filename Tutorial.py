@@ -2220,6 +2220,35 @@
 
 # print(f"year of your birthday is: {shamsi_to_mildai(day, month, year)}")
 
+# ---
+
+# With lambda
+
+# print("enter your birtday")
+# day = int(input("enter day: "))
+# month = int(input("enter month: "))
+# year = int(input("enter year: "))
+
+# def shamsi_to_mildai(d, m, y):
+#     kabise = lambda n : n % 33
+#     kabise_number = [1,5,9,13,17,22,26,30]
+#     if kabise(y) in kabise_number:
+#         if d > 11 and m == 10:
+#             y += 622
+#             return y
+#         else:
+#             y += 621
+#             return y
+
+#     if d > 10 and m == 10:
+#         y += 622
+#         return y
+#     else:
+#         y += 621
+#         return y
+
+# print(f"year of your birthday is: {shamsi_to_mildai(day, month, year)}")
+
 # ----- Part 66 ( Function 13 ) -----
 
 # Change Theme & Change Toggle Comment Shortcut 
@@ -2247,5 +2276,35 @@
 # my_function(3, 5, a=4, b=6)  # 3 5 4 6
 # my_function(4, 6 ,x=3, y=5)  # TypeError: my_function() got some positional-only arguments passed as keyword arguments: 'x, y'
 
-# ----- Part 67 ( Lambda ) -----
+# ----- Part 67 ( Lambda 1 ) -----
 
+# def myFunc(x):
+#     return x * 2
+# print(myFunc(2)) # 4
+
+# ---
+
+# muFunc2 = myFunc
+# print(myFunc(4)) # 8
+
+# ---
+
+# lambda x : x*2
+
+# ---
+
+# myFunc = lambda x : x * 2
+# print(myFunc(3))
+
+# ---
+
+# myFunc = lambda x, y : x * y
+# print(myFunc(3,5)) # 15
+
+# ---
+
+# myFunc = lambda x, y, z: x * y * z
+# print(myFunc(3, 5, 4)) # 60
+
+# ----- Part 68 ( Lambda 2 ) -----
+ 
