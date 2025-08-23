@@ -2455,5 +2455,10 @@
 
 # Pain & heartache
 
-# ----- Part 71 (  ) -----
+# ----- Part 71 ( OOP 1 ) -----
+
+# OOP - Object Oriented Programming 
+# Inherits 
+
+# ----- Part 72 ( OOP 2 ) -----
 
