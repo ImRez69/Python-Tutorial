@@ -2462,3 +2462,23 @@
 
 # ----- Part 72 ( OOP 2 ) -----
 
+# class MyClass:
+#     x = 5
+
+# print(MyClass) # <class '__main__.MyClass'>
+# print(MyClass()) # <__main__.MyClass object at 0x000002413CCB6A50>
+
+# p1 = MyClass()
+# print(p1) # <__main__.MyClass object at 0x0000012C937D6A50>
+# print(p1.x) # 5
+
+# p2 = MyClass()
+# print(p2) # <__main__.MyClass object at 0x0000012C93A54A50>
+# print(p2.x) # 5
+
+# p3 = MyClass()
+# print(p3) # <__main__.MyClass object at 0x0000012C93A54B90>
+# print(p3.x) # 5
+
+# ----- Part 73 ( OOP 3 ) -----
+
