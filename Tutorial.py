@@ -2168,6 +2168,24 @@
 
 # while True:
 #     user_number = int(input("enter a number: "))
-#     number_count(user_number) 
+#     number_count(user_number)
 
 # ----- Part 65 ( Function 12 ) -----
+
+# print("enter your birtday")
+# day = int(input("enter day: "))
+# month = int(input("enter month: "))
+# year = int(input("enter year: "))
+
+# def shamsi_to_mildai(d, m, y):
+
+#     if d > 10 and m == 10:
+#         y += 622
+#         return y
+#     else:
+#         y += 621
+#         return y
+
+# print(f"year of your birthday is: {shamsi_to_mildai(day, month, year)}")
+
+# ----- Part 66 ( Function 13 ) -----
