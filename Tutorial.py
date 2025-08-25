@@ -2484,7 +2484,7 @@
 # print(p3.x) # 5
 # print(p3.y) # 20
 
-# ----- Part 73 ( OOP 3 ) -----
+# ----- Part 73 & 74 ( OOP 3 & 4 ) -----
 
 # class MyClass:
 #     def __init__(x, name, lastname):
@@ -2510,4 +2510,4 @@
 # print(p1.myname, p1.mylastname) # Mamad Mohamadi
 # print(p2.myname, p2.mylastname) # Ali Aliei
 
-# ----- Part 74 ( OOP 4 ) -----
+# ----- Part 75 ( OOP 5 ) -----
