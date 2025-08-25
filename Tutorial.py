@@ -2511,3 +2511,20 @@
 # print(p2.myname, p2.mylastname) # Ali Aliei
 
 # ----- Part 75 ( OOP 5 ) -----
+
+# متود ( تابعی که در کلاس تعریف میشه و با استفاده از آبجکت هایی که از روی کلس تعریف کرده ایم بهش دسترسی پیدا میکنیم )
+# وقتی از ظریق آبجکت فانکشنی را صدا میزنیم به آن متود گفته میشود
+
+# class MyClass:
+#     def __init__(self, name, lastname):
+#         self.myname = name
+#         self.mylastname = lastname
+
+#     def fullname(self):
+#         print(f"{self.myname} {self.mylastname}")
+
+# p1 = MyClass("Mamad", "Mohamadi")
+
+# p1.fullname() # Mamad Mohamadi
+
+# ----- Part 76 ( OOP 6 ) -----
