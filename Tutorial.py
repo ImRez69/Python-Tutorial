@@ -2528,3 +2528,55 @@
 # p1.fullname() # Mamad Mohamadi
 
 # ----- Part 76 ( OOP 6 ) -----
+
+# class MyClass:
+#     def __init__(self , firstname, lastname, age):
+#         self.firstname = firstname
+#         self.lastname = lastname
+#         self.age = age
+
+#     def fullname(self):
+#         print(f"my name is {self.firstname}, my last name is {self.lastname} and my age is {self.age}")
+
+# p1 = MyClass("amir", "amiri", 30)
+# print(p1.firstname) # amir
+# print(p1.lastname) # amiri
+# print(p1.age) # 30
+# p1.fullname() # my name is amir, my last name is amiri and my age is 30
+
+# ---
+
+# class MyClass:
+#     def __init__(self , firstname, lastname, age):
+#         self.firstname = firstname
+#         self.lastname = lastname
+#         self.age = age
+
+#     def fullname(self):
+#         print(f"my name is {self.firstname}, my last name is {self.lastname} and my age is {self.age}")
+
+# p1 = MyClass("amir", "amiri", 30)
+# p1.fullname() # my name is amir, my last name is amiri and my age is 30
+# p1.firstname = "ali"
+# p1.lastname= "aliei"
+# p1.age= "20"
+# p1.fullname() # my name is ali, my last name is aliei and my age is 20
+
+# ---
+
+# class MyClass:
+#     def __init__(self , firstname, lastname, age):
+#         self.firstname = firstname
+#         self.lastname = lastname
+#         self.age = age
+
+#     def fullname(self):
+#         print(f"my name is {self.firstname}, my last name is {self.lastname} and my age is {self.age}")
+
+# p1 = MyClass("amir", "amiri", 30)
+
+# del p1.age
+# print(p1.age) # AttributeError: 'MyClass' object has no attribute 'age'
+# p1.fullname() # AttributeError: 'MyClass' object has no attribute 'age'
+
+# ----- Part 77 ( OOP 7 ) -----
