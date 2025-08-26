@@ -2580,3 +2580,33 @@
 # p1.fullname() # AttributeError: 'MyClass' object has no attribute 'age'
 
 # ----- Part 77 ( OOP 7 ) -----
+
+# class Car:
+
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+#         self.status = False
+
+#     def start(self, speed):
+#         if self.status == False:
+#             self.status = True
+#             print(f"{self.name} is start with {speed} km/h")
+#         else:
+#             print(self.name, "already is start please stop first")
+
+#     def stop(self):
+#         if self.status:
+#             self.status = False
+#             print(self.name, "is stop")
+#         else:
+#             print(self.name, "already is stop please start first")
+
+
+# c1 = Car("tesla", "2200$")
+# c1.start(20)  # tesla is start
+# c1.start(20)  # tesla already is start please stop first
+# c1.stop()  # tesla is stop
+# c1.stop()  # tesla already is stop please start first
+
+# ----- Part 78 ( OOP 8 ) -----
