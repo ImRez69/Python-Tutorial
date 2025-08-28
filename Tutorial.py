@@ -2748,4 +2748,4 @@ c3 = Car("tesla3", "3300$")
 # print(c2.cars_number) # 20
 # print(c3.cars_number) # 20
 
-# ----- Part 80 ( OOP 10 ) -----
+# ----- Part 80 ( Inheritance 1 ) -----
