@@ -2686,32 +2686,33 @@
 
 # ----- Part 79 ( OOP 9 ) -----
 
-class Car:
-    cars_number = 0
-    def __init__(self, name, price):
-        self.name = name
-        self.price = price
-        self.status = False
-        Car.cars_number += 1
+# class Car:
+#     cars_number = 0
 
-    def start(self, speed):
-        if self.status == False:
-            self.status = True
-            print(f"{self.name} is start with {speed} km/h")
-        else:
-            print(self.name, "already is start please stop first")
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+#         self.status = False
+#         Car.cars_number += 1
 
-    def stop(self):
-        if self.status:
-            self.status = False
-            print(self.name, "is stop")
-        else:
-            print(self.name, "already is stop please start first")
+#     def start(self, speed):
+#         if self.status == False:
+#             self.status = True
+#             print(f"{self.name} is start with {speed} km/h")
+#         else:
+#             print(self.name, "already is start please stop first")
+
+#     def stop(self):
+#         if self.status:
+#             self.status = False
+#             print(self.name, "is stop")
+#         else:
+#             print(self.name, "already is stop please start first")
 
 
-c1 = Car("tesla1", "1100$")
-c2 = Car("tesla2", "2200$")
-c3 = Car("tesla3", "3300$")
+# c1 = Car("tesla1", "1100$")
+# c2 = Car("tesla2", "2200$")
+# c3 = Car("tesla3", "3300$")
 
 # print(Car.cars_number) # 3
 # print(c3.cars_number) # 3
@@ -2748,4 +2749,29 @@ c3 = Car("tesla3", "3300$")
 # print(c2.cars_number) # 20
 # print(c3.cars_number) # 20
 
+# ---
+
+# class Car:
+#     cars_number = 0
+
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+#         self.status = False
+#         Car.cars_number += 1
+
+# c1 = Car("tesla1", "1100$")
+# print(c1) # <__main__.Car object at 0x000001A3933B6A50>
+
+# class CarStr(Car):
+#     def __str__(self):
+#         return f"{self.name}({self.price})"
+
+# c2 = CarStr("tesla1", "1100$")
+# print(c2) # tesla1(1100$)
+
 # ----- Part 80 ( Inheritance 1 ) -----
+
+# 
+
+# ----- Part 81 ( Inheritance 2 ) -----
