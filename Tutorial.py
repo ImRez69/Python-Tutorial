@@ -2650,3 +2650,39 @@
 
 
 # ----- Part 78 ( OOP 8 ) -----
+
+# class Car:
+#     cars_number = 0
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+#         self.status = False
+#         # print(f"hi from {self.name} init")
+#         Car.cars_number += 1
+
+#     def start(self, speed):
+#         if self.status == False:
+#             self.status = True
+#             print(f"{self.name} is start with {speed} km/h")
+#         else:
+#             print(self.name, "already is start please stop first")
+
+#     def stop(self):
+#         if self.status:
+#             self.status = False
+#             print(self.name, "is stop")
+#         else:
+#             print(self.name, "already is stop please start first")
+
+
+# print(Car.cars_number) # 0
+
+# c1 = Car("tesla1", "1100$")
+# c2 = Car("tesla2", "2200$")
+# print(Car.cars_number) # 2
+
+# c3 = Car("tesla3", "3300$")
+# print(Car.cars_number) # 3
+
+
+# ----- Part 79 ( OOP 9 ) -----
