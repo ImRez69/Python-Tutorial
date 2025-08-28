@@ -2609,4 +2609,44 @@
 # c1.stop()  # tesla is stop
 # c1.stop()  # tesla already is stop please start first
 
+# ---
+
+# class Car:
+
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+#         self.status = "off"
+
+#     def start(self, speed):
+#         if self.status == "off" or self.status == "pause":
+#             self.status = "on"
+#             print(f"{self.name} is start with {speed} km/h")
+#         else:
+#             print(self.name, "already is start please stop first")
+
+#     def stop(self):
+#         if self.status == "on":
+#             self.status = "pause"
+#             print(self.name, "is stop")
+#         else:
+#             print(self.name, "already is stop or off please start first")
+
+#     def off(self):
+#         if self.status  == "on" or self.status == "pause":
+#             self.status = "off"
+#             print(self.name, "is off")
+#         else:
+#             print(self.name, "already is off or on pause mode please start first")
+
+
+# c1 = Car("tesla", "2200$")
+# c1.start(20)  # tesla is start with 20 km/h
+# c1.stop()  # tesla is stop
+# c1.off()  # tesla is off
+# c1.start(20)  # tesla is start with 20 km/h
+# c1.off()  # tesla is off
+# c1.stop()  # tesla already is stop or off please start first
+
+
 # ----- Part 78 ( OOP 8 ) -----
