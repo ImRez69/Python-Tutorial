@@ -2775,3 +2775,31 @@
 # 
 
 # ----- Part 81 ( Inheritance 2 ) -----
+
+
+# class Person: # Parent
+#     def __init__(self, firstname, lastname, age):
+#         self.firstname = firstname
+#         self.lastname = lastname
+#         self.age = age
+
+#     def sayWelcome(self):
+#         print(f"welcome {self.firstname} {self.lastname} with {self.age} years old")
+
+
+# p1 = Person("amir", "amiri", 20)
+
+# print(p1.firstname, p1.lastname, p1.age)  # amir amiri 20
+# p1.sayWelcome()  # welcome amir amiri with 20 years old
+
+
+# class Student(Person): # Child
+#     pass
+
+
+# s1 = Student("amir", "amiri", 20)
+
+# print(s1.firstname, s1.lastname, s1.age)  # amir amiri 20
+# s1.sayWelcome()  # welcome amir amiri with 20 years old
+
+# ----- Part 82 ( Inheritance 3 ) -----
