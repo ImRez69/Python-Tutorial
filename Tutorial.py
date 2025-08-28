@@ -2684,5 +2684,68 @@
 # c3 = Car("tesla3", "3300$")
 # print(Car.cars_number) # 3
 
-
 # ----- Part 79 ( OOP 9 ) -----
+
+class Car:
+    cars_number = 0
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+        self.status = False
+        Car.cars_number += 1
+
+    def start(self, speed):
+        if self.status == False:
+            self.status = True
+            print(f"{self.name} is start with {speed} km/h")
+        else:
+            print(self.name, "already is start please stop first")
+
+    def stop(self):
+        if self.status:
+            self.status = False
+            print(self.name, "is stop")
+        else:
+            print(self.name, "already is stop please start first")
+
+
+c1 = Car("tesla1", "1100$")
+c2 = Car("tesla2", "2200$")
+c3 = Car("tesla3", "3300$")
+
+# print(Car.cars_number) # 3
+# print(c3.cars_number) # 3
+
+# ---
+
+# c1.cars_number = 10
+# print(Car.cars_number) # 3
+# print(c1.cars_number) # 10
+
+# ---
+
+# c1.cars_number = 10
+# print(Car.cars_number) # 3
+# print(c1.cars_number) # 10
+# print(c2.cars_number) # 3
+# print(c3.cars_number) # 3
+
+# ---
+
+# Car.cars_number = 20
+# c1.cars_number = 10
+# print(Car.cars_number) # 20
+# print(c1.cars_number) # 10
+# print(c2.cars_number) # 20
+# print(c3.cars_number) # 20
+
+# ---
+
+# Car.cars_number = 20
+# c1.cars_number = 10
+# print(Car.cars_number) # 20
+# print(c1.cars_number) # 10
+# print(c2.cars_number) # 20
+# print(c3.cars_number) # 20
+
+# ----- Part 80 ( OOP 10 ) -----
