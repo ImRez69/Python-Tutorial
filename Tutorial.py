@@ -2874,3 +2874,27 @@
 # s1.sayWelcome()  # welcome amir amiri with 20 years old
 
 # ----- Part 84 ( Inheritance 5 ) -----
+
+# class Person:
+#     def __init__(self, firstname, lastname):
+#         self.firstname = firstname
+#         self.lastname = lastname
+
+#     def sayWelcome(self):
+#         print(f"welcome {self.firstname} {self.lastname} with {self.age} years old")
+
+
+# class Student(Person):
+#     def __init__(self, firstname2, lastname2, age):
+#         super().__init__( firstname2, lastname2 ) # جانشین "کلس" "والد" میباشد و نیازی به ارسال "سلف" ندارد
+#         self.age = age
+
+#     def printAge(self):
+#         print(f"age is {self.age}")
+
+# s1 = Student("amir", "amiri",20)
+
+# s1.sayWelcome()  # welcome amir amiri with 20 years old
+# s1.printAge()  # age is 20
+
+# ----- Part 85 ( Practice ) -----
