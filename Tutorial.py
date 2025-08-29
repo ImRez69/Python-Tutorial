@@ -2793,7 +2793,7 @@
 # p1.sayWelcome()  # welcome amir amiri with 20 years old
 
 
-# class Student(Person): # Child
+# class Student(Person): #
 #     pass
 
 
@@ -2803,3 +2803,53 @@
 # s1.sayWelcome()  # welcome amir amiri with 20 years old
 
 # ----- Part 82 ( Inheritance 3 ) -----
+
+# class Person:
+#     def __init__(self, firstname, lastname, age):
+#         self.firstname = firstname
+#         self.lastname = lastname
+#         self.age = age
+
+#     def sayWelcome(self):
+#         print(f"welcome {self.firstname} {self.lastname} with {self.age} years old")
+
+
+# class Student(Person):
+#     def __init__(self, firstname2, lastname2, age2):
+#         self.firstname2 = firstname2
+#         self.lastname2 = lastname2
+#         self.age2 = age2
+
+
+# s1 = Student("amir", "amiri", 20)
+
+# print(s1.firstname2, s1.lastname2, s1.age2)  # amir amiri 20
+# s1.sayWelcome()  # 'Student' object has no attribute 'firstname'. Did you mean: 'firstname2'?
+
+# ---
+
+# class Person:
+#     def __init__(self, firstname, lastname):
+#         self.firstname = firstname
+#         self.lastname = lastname
+
+#     def sayWelcome(self):
+#         print(f"welcome {self.firstname} {self.lastname} with {self.age} years old")
+
+
+# class Student(Person):
+#     def __init__(self, firstname, lastname, age):
+#         Person.__init__(self, firstname, lastname )
+#         self.age = age
+
+# s1 = Student("amir", "amiri",20)
+
+# print(s1.firstname, s1.lastname)  # amir amiri
+# print(s1.age)  # 20
+# s1.sayWelcome()  # welcome amir amiri with 20 years old
+
+# class test(Student):
+#   pass
+
+# ----- Part 83 ( Inheritance 4 ) -----
+
