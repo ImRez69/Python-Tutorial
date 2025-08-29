@@ -2898,3 +2898,43 @@
 # s1.printAge()  # age is 20
 
 # ----- Part 85 ( Practice ) -----
+
+# class User:
+#     def __init__(self,firstname, lastname):
+#         self.fisrtname = firstname
+#         self.lastname = lastname
+
+#     def information(self):
+#         print(f"firstname is {self.fisrtname}, lastname is {self.lastname}")
+
+# #
+
+# class Admin(User):
+#     def __init__(self,a_firstname, a_lastname, email):
+#         super().__init__(a_firstname, a_lastname)
+#         self.email = email
+    
+
+#     def information(self):
+#         print(f"firstname is {self.a_firstname}, lastname is {self.a_lastname}, email is {self.email}")
+
+# #
+
+# class Teacher(Admin):
+#     def __init__(self,t_firstname, t_lastname, t_email, lesson):
+#         super().__init__(t_firstname, t_lastname, t_email)
+#         self.lesson = lesson
+    
+#     def information(self):
+#         print(f"firstname is {self.t_firstname}, lastname is {self.t_lastname}, lesson is {self.lesson}")
+
+
+
+# u1 = User("ali","aliei")
+# a1 = Admin("mamad","mamadi","mamad@gmail.com" )
+# t1 = Teacher("amir","amiri","amir@gmail.com", "python")
+
+
+# u1.information()
+# a1.information()
+# t1.information()
