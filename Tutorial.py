@@ -2897,7 +2897,7 @@
 # s1.sayWelcome()  # welcome amir amiri with 20 years old
 # s1.printAge()  # age is 20
 
-# ----- Part 85 ( Practice ) -----
+# ----- Part 85 ( Practice 1 ) -----
 
 # class User:
 #     def __init__(self,firstname, lastname):
@@ -2905,30 +2905,29 @@
 #         self.lastname = lastname
 
 #     def information(self):
-#         print(f"firstname is {self.fisrtname}, lastname is {self.lastname}")
+#         print(self.fisrtname, self.lastname)
 
 # #
 
 # class Admin(User):
-#     def __init__(self,a_firstname, a_lastname, email):
-#         super().__init__(a_firstname, a_lastname)
+#     def __init__(self,fisrtname, lastname, email):
+#         super().__init__(fisrtname, lastname)
 #         self.email = email
-    
 
 #     def information(self):
-#         print(f"firstname is {self.a_firstname}, lastname is {self.a_lastname}, email is {self.email}")
+#         super().information()
+#         print("Im Admin", self.email)
 
 # #
 
 # class Teacher(Admin):
-#     def __init__(self,t_firstname, t_lastname, t_email, lesson):
-#         super().__init__(t_firstname, t_lastname, t_email)
+#     def __init__(self,fisrtname, lastname, email, lesson):
+#         super().__init__(fisrtname, lastname, email)
 #         self.lesson = lesson
     
 #     def information(self):
-#         print(f"firstname is {self.t_firstname}, lastname is {self.t_lastname}, lesson is {self.lesson}")
-
-
+#         super().information()
+#         print("Im Teacher", self.lesson)
 
 # u1 = User("ali","aliei")
 # a1 = Admin("mamad","mamadi","mamad@gmail.com" )
@@ -2938,3 +2937,5 @@
 # u1.information()
 # a1.information()
 # t1.information()
+
+# ----- Part 86 ( Practice 2) -----
