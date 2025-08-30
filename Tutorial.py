@@ -2918,24 +2918,81 @@
 #         super().information()
 #         print("Im Admin", self.email)
 
-# #
-
-# class Teacher(Admin):
-#     def __init__(self,fisrtname, lastname, email, lesson):
-#         super().__init__(fisrtname, lastname, email)
-#         self.lesson = lesson
-    
-#     def information(self):
-#         super().information()
-#         print("Im Teacher", self.lesson)
+# 
 
 # u1 = User("ali","aliei")
 # a1 = Admin("mamad","mamadi","mamad@gmail.com" )
-# t1 = Teacher("amir","amiri","amir@gmail.com", "python")
-
 
 # u1.information()
 # a1.information()
+
+# ----- Part 86 ( Practice 2 ) -----
+
+# cs = [
+#     {
+#         "title":"Python",
+#         "teacher" : "amiri"
+#     },
+#     {
+#         "title":"HTML",
+#         "teacher" : "aliei"
+#     },
+#     {
+#         "title":"CSS",
+#         "teacher" : "mamadi"
+#     }
+# ]
+
+# class User:
+#     def __init__(self,firstname, lastname):
+#         self.fisrtname = firstname
+#         self.lastname = lastname
+
+#     def information(self):
+#         print(self.fisrtname, self.lastname)
+
+# #
+
+# class Student(User):
+#     def __init__(self,fisrtname, lastname, email):
+#         super().__init__(fisrtname, lastname)
+#         self.email = email
+#         self.courses_list = []
+
+#     def information(self):
+#         super().information()
+#         print("Im Student", self.email)
+
+#     def courses(self):
+#         if self.courses_list:
+#             for c in self.courses_list:
+#                 print(c.get("title"))
+#         else:
+#             print("Student Dont Have Course")
+
+
+# #
+
+# class Teacher(User):
+#     def __init__(self,fisrtname, lastname, code):
+#         super().__init__(fisrtname, lastname)
+#         self.code = code
+    
+#     def information(self):
+#         super().information()
+#         print("Im Teacher", self.code)
+
+# s1 = Student("mamad","mamadi","mamad@gmail.com" )
+# s2 = Student("mamad2","mamadi2","mamad2@gmail.com" )
+# t1 = Teacher("amir","amiri", 34162521)
+
+# s1.information()
+# print("-------------")
 # t1.information()
 
-# ----- Part 86 ( Practice 2) -----
+# s1.courses_list.append(cs[1])
+# s1.courses_list.append(cs[2])
+# s1.courses()
+# s2.courses() # Student Dont Have Course
+
+# ----- Part 87 ( Scope ) -----
