@@ -2996,3 +2996,117 @@
 # s2.courses() # Student Dont Have Course
 
 # ----- Part 87 ( Scope ) -----
+
+# def myFunc():
+#     x = 200
+#     print(x)
+
+# myFunc() # 200
+# print(x) # NameError: name 'x' is not defined
+
+# ---
+
+# def myFunc():
+#     def myFunc2():
+#         b = 300
+#         print(b)
+#     print(b)
+    
+# myFunc() # NameError: name 'b' is not defined
+
+# ---
+
+# def myFunc():
+#     print(b)    
+
+# b = 300
+# myFunc() # 300
+
+# ---
+
+# def myFunc():
+#     print(b)    
+
+# myFunc() # NameError: name 'b' is not defined
+# b = 300
+
+# ---
+
+# def myFunc():
+#     x = 200
+#     def myFunc2():
+#         print(x)
+    
+#     myFunc2()
+
+# myFunc() # 200
+
+# ---
+
+# x = 200
+
+# def myFunc():
+#     print(x) # 200
+
+# myFunc() # 200
+# print(x) # 200
+
+# ---
+
+# x = 200
+
+# def myFunc():
+#     x = 300
+#     print(x) # 300
+
+# myFunc() # 300
+# print(x) # 200
+
+# ---
+
+# def myFunc():
+#     global x
+#     x = 300
+#     print(x) # 300
+
+# myFunc() # 300
+# print(x) # 300
+
+# ---
+
+# x = 200
+
+# def myFunc():
+#     x = 300
+#     print(x) # 300
+
+# myFunc() # 300
+# print(x) # 200
+
+# ---
+
+# x = 200
+
+# def myFunc():
+#     global x
+#     x = 300
+#     print(x) # 300
+
+# myFunc() # 300
+# print(x) # 300
+
+# ---
+
+# def myFunc():
+#     x = 100
+#     def myFunc2():
+#         nonlocal x
+#         x = 200
+#     myFunc2()
+
+#     return x
+
+# print(myFunc()) # 300
+
+# ----- Part 88 ( Modules ) -----
+
