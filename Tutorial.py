@@ -3108,5 +3108,133 @@
 
 # print(myFunc()) # 300
 
-# ----- Part 88 ( Modules ) -----
+# ----- Part 88 ( Modules 1 ) -----
 
+# Can Import
+# def, class, variable
+
+# def hello(name):
+#     print(f"hello {name}")
+
+# def by(name):
+#     print(f"by {name}")
+    
+# hello("amir") # hello amir
+# by("amir") # by amir
+
+#
+# OR use Import Module
+#
+# import from other py files
+# def hello(name):
+#     print(f"hello {name}")
+#
+
+# def by(name):
+#     print(f"by {name}")
+    
+# import module
+# module.hello("amir") # hello amir
+# module.by("amir") # by amir
+# m1 = module.User()
+
+# ---
+
+# as
+
+# import modulemodulemodulemodulemodulemodulemodulemodulemodulemodule as md
+# md.hello("amir") # hello amir
+# md.by("amir") # by amir
+# m1 = md.User()
+
+
+# ---
+
+# from
+# from modulemodulemodulemodulemodulemodulemodulemodulemodulemodule import hello
+# hello("amir") # hello amir
+#
+# ---
+#
+# from modulemodulemodulemodulemodulemodulemodulemodulemodulemodule import hello, by, User
+# hello("amir") # hello amir
+# by("amir") # by amir
+# m1 = User()
+
+# ---
+
+# from modulemodulemodulemodulemodulemodulemodulemodulemodulemodule import hello as h
+# h("amir") # hello amir
+#
+# ---
+
+# from modulemodulemodulemodulemodulemodulemodulemodulemodulemodule import hello as h, by as b
+# h("amir") # hello amir
+# b("amir") # by amir#
+
+# ---
+
+# import module
+# print(module.name) # mamad
+
+# ---
+
+# from module import name
+# print(name) # mamad
+
+# ---
+
+# from module import name as n
+# print(n) # mamad
+
+# ---
+
+# from module import name_dic
+# print(module.name_dic) # name 'module' is not defined
+# print(module.name_dic["name"]) # name 'module' is not defined
+
+#
+
+# from module import name_dic
+# print(name_dic) # {'name': 'mamad', 'phone': '09999999999'}
+# print(name_dic["name"]) # mamad
+
+# ---
+
+# from module import *
+# hello("amir")  # hello amir
+# by("amir")  # by amir
+# u1 = User("amir ")  # amir
+# print(name)  # mamad
+# print(name_dic)  # {'name': 'mamad', 'phone': '09999999999'}
+# print(name_dic["name"])  # mamad
+
+# ---
+
+# import platform
+# print(platform)  # <module 'platform' from 'C:\\Program Files\\Python313\\Lib\\platform.py'>
+# platform.system() # 
+# print(platform.system())  # Windows
+
+# ---
+
+# import platform
+
+# dir(platform) # 
+# print(dir(platform))  # ['AndroidVer', 'IOSVersionInfo', '_Processor', '_WIN32_CLIENT_RELEASES', '_WIN32_SERVER_RELEASES', '__builtins__', '__cached__', '__copyright__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_comparable_version', '_default_architecture', '_follow_symlinks', '_get_machine_win32', '_java_getprop', '_mac_ver_xml', '_node', '_norm_version', '_os_release_cache', '_os_release_candidates', '_parse_os_release', '_platform', '_platform_cache', '_sys_version', '_sys_version_cache', '_syscmd_file', '_syscmd_ver', '_uname_cache', '_unknown_as_blank', '_ver_stages', '_win32_ver', '_wmi', '_wmi_query', 'android_ver', 'architecture', 'collections', 'freedesktop_os_release', 'functools', 'ios_ver', 'itertools', 'java_ver', 'libc_ver', 'mac_ver', 'machine', 'node', 'os', 'platform', 'processor', 'python_branch', 'python_build', 'python_compiler', 'python_implementation', 'python_revision', 'python_version', 'python_version_tuple', 're', 'release', 'sys', 'system', 'system_alias', 'uname', 'uname_result', 'version', 'win32_edition', 'win32_is_iot', 'win32_ver']
+
+# x = dir(platform)
+# print(x)  # ['AndroidVer', 'IOSVersionInfo', '_Processor', '_WIN32_CLIENT_RELEASES', '_WIN32_SERVER_RELEASES', '__builtins__', '__cached__', '__copyright__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_comparable_version', '_default_architecture', '_follow_symlinks', '_get_machine_win32', '_java_getprop', '_mac_ver_xml', '_node', '_norm_version', '_os_release_cache', '_os_release_candidates', '_parse_os_release', '_platform', '_platform_cache', '_sys_version', '_sys_version_cache', '_syscmd_file', '_syscmd_ver', '_uname_cache', '_unknown_as_blank', '_ver_stages', '_win32_ver', '_wmi', '_wmi_query', 'android_ver', 'architecture', 'collections', 'freedesktop_os_release', 'functools', 'ios_ver', 'itertools', 'java_ver', 'libc_ver', 'mac_ver', 'machine', 'node', 'os', 'platform', 'processor', 'python_branch', 'python_build', 'python_compiler', 'python_implementation', 'python_revision', 'python_version', 'python_version_tuple', 're', 'release', 'sys', 'system', 'system_alias', 'uname', 'uname_result', 'version', 'win32_edition', 'win32_is_iot', 'win32_ver']
+
+# ---
+
+# import module
+
+# dir(module) # 
+# print(dir(module))  # ['User', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'by', 'hello', 'name', 'name_dic']
+
+# x = dir(module)
+# print(x)  # ['User', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'by', 'hello', 'name', 'name_dic']
+
+
+# ----- Part 89 ( Modules 2 ) -----
