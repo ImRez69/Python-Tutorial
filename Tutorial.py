@@ -2772,7 +2772,7 @@
 
 # ----- Part 80 ( Inheritance 1 ) -----
 
-# 
+#
 
 # ----- Part 81 ( Inheritance 2 ) -----
 
@@ -2918,7 +2918,7 @@
 #         super().information()
 #         print("Im Admin", self.email)
 
-# 
+#
 
 # u1 = User("ali","aliei")
 # a1 = Admin("mamad","mamadi","mamad@gmail.com" )
@@ -2977,7 +2977,7 @@
 #     def __init__(self,fisrtname, lastname, code):
 #         super().__init__(fisrtname, lastname)
 #         self.code = code
-    
+
 #     def information(self):
 #         super().information()
 #         print("Im Teacher", self.code)
@@ -3011,13 +3011,13 @@
 #         b = 300
 #         print(b)
 #     print(b)
-    
+
 # myFunc() # NameError: name 'b' is not defined
 
 # ---
 
 # def myFunc():
-#     print(b)    
+#     print(b)
 
 # b = 300
 # myFunc() # 300
@@ -3025,7 +3025,7 @@
 # ---
 
 # def myFunc():
-#     print(b)    
+#     print(b)
 
 # myFunc() # NameError: name 'b' is not defined
 # b = 300
@@ -3036,7 +3036,7 @@
 #     x = 200
 #     def myFunc2():
 #         print(x)
-    
+
 #     myFunc2()
 
 # myFunc() # 200
@@ -3118,7 +3118,7 @@
 
 # def by(name):
 #     print(f"by {name}")
-    
+
 # hello("amir") # hello amir
 # by("amir") # by amir
 
@@ -3132,7 +3132,7 @@
 
 # def by(name):
 #     print(f"by {name}")
-    
+
 # import module
 # module.hello("amir") # hello amir
 # module.by("amir") # by amir
@@ -3213,14 +3213,14 @@
 
 # import platform
 # print(platform)  # <module 'platform' from 'C:\\Program Files\\Python313\\Lib\\platform.py'>
-# platform.system() # 
+# platform.system() #
 # print(platform.system())  # Windows
 
 # ---
 
 # import platform
 
-# dir(platform) # 
+# dir(platform) #
 # print(dir(platform))  # ['AndroidVer', 'IOSVersionInfo', '_Processor', '_WIN32_CLIENT_RELEASES', '_WIN32_SERVER_RELEASES', '__builtins__', '__cached__', '__copyright__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_comparable_version', '_default_architecture', '_follow_symlinks', '_get_machine_win32', '_java_getprop', '_mac_ver_xml', '_node', '_norm_version', '_os_release_cache', '_os_release_candidates', '_parse_os_release', '_platform', '_platform_cache', '_sys_version', '_sys_version_cache', '_syscmd_file', '_syscmd_ver', '_uname_cache', '_unknown_as_blank', '_ver_stages', '_win32_ver', '_wmi', '_wmi_query', 'android_ver', 'architecture', 'collections', 'freedesktop_os_release', 'functools', 'ios_ver', 'itertools', 'java_ver', 'libc_ver', 'mac_ver', 'machine', 'node', 'os', 'platform', 'processor', 'python_branch', 'python_build', 'python_compiler', 'python_implementation', 'python_revision', 'python_version', 'python_version_tuple', 're', 'release', 'sys', 'system', 'system_alias', 'uname', 'uname_result', 'version', 'win32_edition', 'win32_is_iot', 'win32_ver']
 
 # x = dir(platform)
@@ -3230,7 +3230,7 @@
 
 # import module
 
-# dir(module) # 
+# dir(module) #
 # print(dir(module))  # ['User', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'by', 'hello', 'name', 'name_dic']
 
 # x = dir(module)
@@ -3238,3 +3238,28 @@
 
 
 # ----- Part 89 ( Modules 2 ) -----
+
+# import platform
+# print(dir(platform)) # ['AndroidVer', 'IOSVersionInfo', '_Processor', '_WIN32_CLIENT_RELEASES', '_WIN32_SERVER_RELEASES', '__builtins__', '__cached__', '__copyright__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_comparable_version', '_default_architecture', '_follow_symlinks', '_get_machine_win32', '_java_getprop', '_mac_ver_xml', '_node', '_norm_version', '_os_release_cache', '_os_release_candidates', '_parse_os_release', '_platform', '_platform_cache', '_sys_version', '_sys_version_cache', '_syscmd_file', '_syscmd_ver', '_uname_cache', '_unknown_as_blank', '_ver_stages', '_win32_ver', '_wmi', '_wmi_query', 'android_ver', 'architecture', 'collections', 'freedesktop_os_release', 'functools', 'ios_ver', 'itertools', 'java_ver', 'libc_ver', 'mac_ver', 'machine', 'node', 'os', 'platform', 'processor', 'python_branch', 'python_build', 'python_compiler', 'python_implementation', 'python_revision', 'python_version', 'python_version_tuple', 're', 'release', 'sys', 'system', 'system_alias', 'uname', 'uname_result', 'version', 'win32_edition', 'win32_is_iot', 'win32_ver']
+# print(platform.system()) # Windows
+# print(platform.processor()) # Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+
+# ---
+
+# import random
+
+# random.seed(10)
+# print(random.random()) # 0.5714025946899135
+# print(random.randint(1,10)) # 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+# print(random.randrange(1,10)) # 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+
+# mylist = ["apple", "banana", "cherry"]
+# print(random.choice(mylist)) # apple | banana | cherry
+
+# mydict = {"apple": "1", "banana": "2", "cherry": "3"}
+# print(random.choice(mydict))  # KeyError: 0 | 1 | 2
+
+# mystr = "BRUH"
+# print(random.choice(mystr))  # B | R | U | H
+
+# ----- Part 90 ( Modules 3 ) -----
